@@ -1,0 +1,25 @@
+name: Copy File from Private Repo
+
+on:
+  schedule:
+    - cron: '0 10 * * *'  # 每小时执行一次
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  copy-file:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout current repository
+        uses: actions/checkout@v2
+
+      - name: Checkout private repository
+        uses: actions/checkout@v2
+        with:
+          repository: /howbaer/lav1  # 替换为你的私有仓库名
+          path: /daily.sub
+          token: ${{ secrets.GITHUB_TOKEN }}  # 使用 GitHub 提供的 token
+
+      - name: Copy file
+        run: |
+          cp /daily.sub ./daily.sub  # 替换为实际路径
