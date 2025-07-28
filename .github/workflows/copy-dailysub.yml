@@ -2,7 +2,7 @@ name: copy-dailysub
 
 on:
   schedule:
-    - cron: '0 10 * * *'  # 每小时执行一次
+    - cron: '30 10 * * *'  # 每小时执行一次
   workflow_dispatch:  # 允许手动触发
 
 jobs:
@@ -11,12 +11,12 @@ jobs:
 
     steps:
       - name: Checkout current repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Checkout private repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
-          repository: howbaer/lav1  # 替换为你的私有仓库名
+          repository: ${{ github.repository_owner }}/lav1  # 替换为你的私有仓库名
           path: private-repo
           token: ${{ secrets.GITHUB_TOKEN }}  # 使用 GitHub 提供的 token
 
