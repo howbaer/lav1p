@@ -17,6 +17,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: howbaer/lav1  # 替换为你的私有仓库名
+          path: private-repo
           token: ${{ secrets.GITHUB_TOKEN }}  # 使用 GitHub 提供的 token
 
       - name: Copy file
