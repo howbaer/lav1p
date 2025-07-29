@@ -1,25 +1,44 @@
 name: copy-dailysub
 
 on:
+  # 定时触发（例如每天凌晨1点）
   schedule:
-    - cron: '30 10 * * *'  # 每小时执行一次
-  workflow_dispatch:  # 允许手动触发
+    - cron: '30 10 * * *'
+  
+  # 手动触发
+  workflow_dispatch:
 
 jobs:
   copy-file:
     runs-on: ubuntu-latest
-
+    
     steps:
-      - name: Checkout current repository
-        uses: actions/checkout@v3
-
-      - name: Checkout private repository
-        uses: actions/checkout@v3
-        with:
-          repository: ${{ github.repository_owner }}/lav1  # 替换为你的私有仓库名
-          path: lav1
-          token: ${{ secrets.GITHUB_TOKEN }}  # 使用 GitHub 提供的 token
-
-      - name: Copy file
-        run: |
-          cp lav1/daily.sub ./  # 替换为实际路径
+    # 检出私有仓库
+    - name: Checkout private repository
+      uses: actions/checkout@v3
+      with:
+        repository: ${{ github.repository_owner }}/lav1
+        token: ${{ secrets.LAV1_TOKEN }}
+        path: lav1
+    
+    # 检出公开仓库  
+    - name: Checkout public repository
+      uses: actions/checkout@v3
+      with:
+        repository: ${{ github.repository_owner }}/lav1p
+        path: lav1p
+    
+    # 复制文件
+    - name: Copy file
+      run: |
+        cp lav1/daily.sub lav1p/daily.sub
+    
+    # 提交到公开仓库
+    - name: Commit and push
+      run: |
+        cd lav1p
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git add daily.sub
+        git commit -m "Update daily.sub"
+        git push
