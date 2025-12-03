@@ -33,6 +33,7 @@ jobs:
     - name: Copy file
       run: |
         cp lav1/daily.sub lav1p/daily.sub
+        cp lav1/dailysb.json lav1p/dailysb.json
     
     # 提交到公开仓库
     - name: Commit and push
