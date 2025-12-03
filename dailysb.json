@@ -1154,28 +1154,6 @@
     }
   },
   {
-    "type": "ssr",
-    "raw": "ssr://c3NyMi43NjI5ODgueHl6OjMzMzM2OmF1dGhfY2hhaW5fYTpjaGFjaGEyMC1pZXRmOnRsczEuMl90aWNrZXRfYXV0aDpaRzl1WjNSaGFYZGhibWN1WTI5dC8_b2Jmc3BhcmFtPSZyZW1hcmtzPVUxTlM2SXFDNTRLNQ",
-    "server": null,
-    "port": null,
-    "cipher": "ssr2.762988.xyz",
-    "password": "33336",
-    "protocol_param": "auth_chain_a",
-    "obfs": "chacha20-ietf",
-    "remark": "SSR节点"
-  },
-  {
-    "type": "ssr",
-    "raw": "ssr://c3NyMi43NjI5ODgueHl6OjMzMzM2OmF1dGhfY2hhaW5fYTpjaGFjaGEyMC1pZXRmOnRsczEuMl90aWNrZXRfYXV0aDpaRzl1WjNSaGFYZGhibWN1WTI5dC8/cmVtYXJrcz1VMU5TNklxQzU0SzU=",
-    "server": null,
-    "port": null,
-    "cipher": "ssr2.762988.xyz",
-    "password": "33336",
-    "protocol_param": "auth_chain_a",
-    "obfs": "chacha20-ietf",
-    "remark": "SSR节点"
-  },
-  {
     "type": "shadowsocks",
     "raw": "ss://YWVzLTI1Ni1nY206ZG9uZ3RhaXdhbmcuY29t@[2001:bc8:1203:106::300]:33333#SS%E8%8A%82%E7%82%B9-ipv6",
     "remark": "SS节点-ipv6",
