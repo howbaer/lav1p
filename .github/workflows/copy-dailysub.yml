@@ -30,9 +30,11 @@ jobs:
         path: lav1p
     
     # 复制文件
-    - name: Copy file
+    - name: Copy daily.sub
       run: |
         cp lav1/daily.sub lav1p/daily.sub
+    - name: Copy dailysb.json
+      run: |
         cp lav1/dailysb.json lav1p/dailysb.json
     
     # 提交到公开仓库
