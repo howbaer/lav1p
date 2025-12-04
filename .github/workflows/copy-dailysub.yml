@@ -33,9 +33,9 @@ jobs:
     - name: Copy daily.sub
       run: |
         cp lav1/daily.sub lav1p/daily.sub
-    - name: Copy dailysb.json
+    - name: Copy dailycl.yaml
       run: |
-        cp lav1/dailysb.json lav1p/dailysb.json
+        cp lav1/dailycl.yaml lav1p/dailycl.yaml
     
     # 提交到公开仓库
     - name: Commit and push
@@ -43,6 +43,6 @@ jobs:
         cd lav1p
         git config user.name github-actions
         git config user.email github-actions@github.com
-        git add daily.sub dailysb.json
+        git add daily.sub dailycl.yaml
         git commit -m "Update daily.sub"
         git push
