@@ -1,219 +1,254 @@
 proxies:
-- name: trojan_212.193.18.144_36158
-  type: trojan
-  server: 212.193.18.144
-  port: 36158
-  password: ZblhWr0mqMakCPg.N
-  tls: true
-- name: trojan_80.173.230.196_26279
-  type: trojan
-  server: 80.173.230.196
-  port: 26279
-  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
-- name: trojan_tuntro006.instconn.com_443
-  type: trojan
-  server: tuntro006.instconn.com
-  port: 443
-  password: 30077070-596e-48ea-9400-14c8ed07bd97
-  sni: torontorm1.686911.xyz
-- name: trojan_80.173.230.196_26279
-  type: trojan
-  server: 80.173.230.196
-  port: 26279
-  password: a5inYFE%253DJGV89%252BhjxIqgDp1tcWBd6
-- name: trojan_80.173.231.254_12420
-  type: trojan
-  server: 80.173.231.254
-  port: 12420
-  password: wp9IsiY82uQhcmgNC1eoBM
-  sni: www.semanticstaplegun.click
-- name: trojan_university.lele233.com_443
-  type: trojan
-  server: university.lele233.com
-  port: 443
-  password: 3628ca8d-6371-45df-879c-2d3e5d110b51
-- name: trojan_140.82.35.244_20994
-  type: trojan
-  server: 140.82.35.244
-  port: 20994
-  password: x.8ur1QiCyzlRHXeaB5UwoDfgZ04s
-  sni: ads.x5.ru
-- name: trojan_45.32.158.138_20994
-  type: trojan
-  server: 45.32.158.138
-  port: 20994
-  password: x.8ur1QiCyzlRHXeaB5UwoDfgZ04s
-  sni: ads.x5.ru
-- name: trojan_green2.cdntencentmusic.com_35501
-  type: trojan
-  server: green2.cdntencentmusic.com
-  port: 35501
-  password: 655a3e72-788e-41c1-8c23-6032490c64a0
-  sni: green2.cdntencentmusic.com
-- name: trojan_green2.cdntencentmusic.com_31103
-  type: trojan
-  server: green2.cdntencentmusic.com
-  port: 31103
-  password: 5c762006-ed60-4b35-b8fe-4520adeac906
-  sni: green2.cdntencentmusic.com
-- name: trojan_51.83.186.142_443
-  type: trojan
-  server: 51.83.186.142
-  port: 443
-  password: 2959e4f7-7589-4a40-9b96-1be750ac7845
-  sni: pl1.trojanvh.xyz
-- name: trojan_152.67.160.174_443
-  type: trojan
-  server: 152.67.160.174
-  port: 443
-  password: 54080134-2cba-4535-8599-95650bd9aa54
-- name: trojan_kfjdi.pages.dev_443
-  type: trojan
-  server: kfjdi.pages.dev
-  port: 443
-  password: er668
-- name: trojan_109.234.211.66_8443
-  type: trojan
-  server: 109.234.211.66
+- name: vmess_HHhjki.TAIwaN2028.indEvS.in_80
+  type: vmess
+  server: HHhjki.TAIwaN2028.indEvS.in
+  port: 80
+  uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-headers:
+    Host: hHHJkI.taiwAn2028.iNDEVs.in
+  ws-path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd
+- name: vmess_154.83.2.156_2086
+  type: vmess
+  server: 154.83.2.156
+  port: 2086
+  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-headers:
+    Host: v205.19740822.xyz
+  ws-path: /
+- name: vmess_172.64.152.23_8443
+  type: vmess
+  server: 172.64.152.23
   port: 8443
-  password: trojan
-- name: trojan_green2.cdntencentmusic.com_35502
-  type: trojan
-  server: green2.cdntencentmusic.com
-  port: 35502
-  password: 48f3f8f1-8b1c-42d6-8e8e-fb9c14ebb550
-  sni: green2.cdntencentmusic.com
-- name: trojan_51.38.99.96_443
-  type: trojan
-  server: 51.38.99.96
+  uuid: 19e52bf4-1b7d-4bd4-ae66-6ca024436c17
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: frsys.fl-dl.com
+  ws-path: /gbt
+- name: vmess_172.64.152.23_8443
+  type: vmess
+  server: 172.64.152.23
+  port: 8443
+  uuid: 19e52bf4-1b7d-4bd4-ae66-6ca024436c17
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: frsys.fl-dl.com
+  ws-path: /gbt
+- name: vmess_hgtrojan.zabc.net_2083
+  type: vmess
+  server: hgtrojan.zabc.net
+  port: 2083
+  uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: hgtrojan.zabc.net
+  ws-path: /e6395c20
+- name: vmess_154.83.2.156_2086
+  type: vmess
+  server: 154.83.2.156
+  port: 2086
+  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-headers:
+    Host: v205.19740822.xyz
+  ws-path: /
+- name: vmess_c7.620720.xyz_8443
+  type: vmess
+  server: c7.620720.xyz
+  port: 8443
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: c7.620720.xyz
+  ws-path: /
+- name: vmess_t1.620720.xyz_8443
+  type: vmess
+  server: t1.620720.xyz
+  port: 8443
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: t1.620720.xyz
+  ws-path: /
+- name: vmess_t1.620720.xyz_8443
+  type: vmess
+  server: t1.620720.xyz
+  port: 8443
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: t1.620720.xyz
+  ws-path: /
+- name: vmess_cg1c07.waimaojd.com_443
+  type: vmess
+  server: cg1c07.waimaojd.com
   port: 443
-  password: b8808043-6566-4923-9195-e66bfb553d57
-  sni: ba24.ir
-- name: trojan_cdnfire.xiaomispeed.com_25502
-  type: trojan
-  server: cdnfire.xiaomispeed.com
-  port: 25502
-  password: 2d259b0f-7639-45f0-b2fe-8b26773741f0
-  sni: cdnfire.xiaomispeed.com
-- name: trojan_cdnfire.xiaomispeed.com_21102
-  type: trojan
-  server: cdnfire.xiaomispeed.com
-  port: 21102
-  password: 92a6b34f-e97a-491a-ac10-2a18af935706
-  sni: cdnfire.xiaomispeed.com
-- name: trojan_172.67.204.84_443
-  type: trojan
-  server: 172.67.204.84
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: cg1c07.waimaojd.com
+  ws-path: /api/v1/graphql
+- name: vmess_sy4.620720.xyz_443
+  type: vmess
+  server: sy4.620720.xyz
   port: 443
-  password: qj1Dz1CJmFQRhWr1SP80aA
-  sni: cdn-21.gsmxreality.com
-- name: trojan_103.195.236.24_443
-  type: trojan
-  server: 103.195.236.24
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: sy4.620720.xyz
+  ws-path: /
+- name: vmess_hgtrojan.zabc.net_2083
+  type: vmess
+  server: hgtrojan.zabc.net
+  port: 2083
+  uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: hgtrojan.zabc.net
+  ws-path: /e6395c20
+- name: vmess_cg1c01.waimaojd.com_443
+  type: vmess
+  server: cg1c01.waimaojd.com
   port: 443
-  password: 5623be5f-c9da-4511-81a9-b4b39b16edae
-- name: ss_82.38.31.199_8080
-  type: ss
-  server: 82.38.31.199
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: ss_admin.c2.havij.co_443
-  type: ss
-  server: admin.c2.havij.co
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: cg1c01.waimaojd.com
+  ws-path: /api/v1/graphql
+- name: vmess_cg1c04.waimaojd.com_443
+  type: vmess
+  server: cg1c04.waimaojd.com
   port: 443
-  cipher: chacha20-ietf-poly1305
-  password: kaQH3hGdcP80XEDI
-- name: ss_145.133.64.171_443
-  type: ss
-  server: 145.133.64.171
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: cg1c04.waimaojd.com
+  ws-path: /api/v1/graphql
+- name: vmess_cg1c14.waimaojd.com_443
+  type: vmess
+  server: cg1c14.waimaojd.com
   port: 443
-  cipher: chacha20-ietf-poly1305
-  password: kaQH3hGdcP80XEDI
-- name: ss_103.186.154.216_38388
-  type: ss
-  server: 103.186.154.216
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.154.228_38388
-  type: ss
-  server: 103.186.154.228
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.154.229_38388
-  type: ss
-  server: 103.186.154.229
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.154.32_38388
-  type: ss
-  server: 103.186.154.32
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.154.36_38388
-  type: ss
-  server: 103.186.154.36
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.155.107_38388
-  type: ss
-  server: 103.186.155.107
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.155.123_38388
-  type: ss
-  server: 103.186.155.123
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.155.3_38388
-  type: ss
-  server: 103.186.155.3
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.155.33_38388
-  type: ss
-  server: 103.186.155.33
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_92.223.62.214_11201
-  type: ss
-  server: 92.223.62.214
-  port: 11201
-  cipher: chacha20-ietf-poly1305
-  password: 6134494027689bbb
-- name: ss_103.186.155.36_38388
-  type: ss
-  server: 103.186.155.36
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_62.133.60.60_7048
-  type: ss
-  server: 62.133.60.60
-  port: 7048
-  cipher: chacha20-ietf-poly1305
-  password: TxUz18504p5egfiVecTQll
-- name: ss_94.156.170.43_9000
-  type: ss
-  server: 94.156.170.43
-  port: 9000
-  cipher: chacha20-ietf-poly1305
-  password: yqpk58PpXYXhchltkeWrMA
-- name: ss_158.247.205.87_443
-  type: ss
-  server: 158.247.205.87
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: cg1c14.waimaojd.com
+  ws-path: /api/v1/graphql
+- name: vmess_154.83.2.156_2086
+  type: vmess
+  server: 154.83.2.156
+  port: 2086
+  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-headers:
+    Host: v205.19740822.xyz
+  ws-path: /
+- name: vmess_154.83.2.156_2086
+  type: vmess
+  server: 154.83.2.156
+  port: 2086
+  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-headers:
+    Host: v205.19740822.xyz
+  ws-path: /
+- name: vmess_160.191.245.48_58623
+  type: vmess
+  server: 160.191.245.48
+  port: 58623
+  uuid: 8d74803e-aa74-47ef-e3ae-23eeaa96f89d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-path: /
+- name: vmess_aflzzul.meiquankongjian.com_52511
+  type: vmess
+  server: aflzzul.meiquankongjian.com
+  port: 52511
+  uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-headers:
+    Host: aflzzul.meiquankongjian.com
+  ws-path: /564dfa20/
+- name: vmess_eed4.7777125.xyz_443
+  type: vmess
+  server: eed4.7777125.xyz
   port: 443
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
+  uuid: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: eed4.7777125.xyz
+  ws-path: /eszjp4nTT8TxDHFepMpfNkCk8
+- name: vmess_rrrgt.2030.pp.ua_80
+  type: vmess
+  server: rrrgt.2030.pp.ua
+  port: 80
+  uuid: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-headers:
+    Host: rrrgt.2030.pp.ua
+  ws-path: /eszjp4nTT8TxDHFepMpfNkCk8
 - name: vmess_82.198.246.97_180
   type: vmess
   server: 82.198.246.97
@@ -224,6 +259,218 @@ proxies:
   tls: false
   network: tcp
   ws-path: /
+- name: vmess_YyYYuUI.iRAn1912.dpDNs.oRG_443
+  type: vmess
+  server: YyYYuUI.iRAn1912.dpDNs.oRG
+  port: 443
+  uuid: 4a7baca1-8048-4a91-8316-595b36657a54
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: YYyYUui.iran1912.dpdNS.OrG
+  ws-path: /TaBvkrUbsyvsvinsGGg
+- name: vmess_v30.hdacd.com_30830
+  type: vmess
+  server: v30.hdacd.com
+  port: 30830
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-headers:
+    Host: www3.gaiuohr.cloud-ip.cc
+  ws-path: /rioutghewiuorrh9823r
+- name: vmess_t1.620720.xyz_8443
+  type: vmess
+  server: t1.620720.xyz
+  port: 8443
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: t1.620720.xyz
+  ws-path: /
+- name: vmess_v10.hdacd.com_30807
+  type: vmess
+  server: v10.hdacd.com
+  port: 30807
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-headers:
+    Host: v10.hdacd.com
+  ws-path: /
+- name: vmess_82.198.246.97_180
+  type: vmess
+  server: 82.198.246.97
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-path: /
+- name: vmess_154.83.2.156_2086
+  type: vmess
+  server: 154.83.2.156
+  port: 2086
+  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-headers:
+    Host: v205.19740822.xyz
+  ws-path: /
+- name: vmess_154.83.2.156_2086
+  type: vmess
+  server: 154.83.2.156
+  port: 2086
+  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-headers:
+    Host: v205.19740822.xyz
+  ws-path: /
+- name: vmess_v10.hdacd.com_30807
+  type: vmess
+  server: v10.hdacd.com
+  port: 30807
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-headers:
+    Host: v10.hdacd.com
+  ws-path: /
+- name: vmess_sy4.620720.xyz_443
+  type: vmess
+  server: sy4.620720.xyz
+  port: 443
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: sy4.620720.xyz
+  ws-path: /
+- name: vmess_t1.620720.xyz_8443
+  type: vmess
+  server: t1.620720.xyz
+  port: 8443
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: t1.620720.xyz
+  ws-path: /
+- name: vmess_cg1c07.waimaojd.com_443
+  type: vmess
+  server: cg1c07.waimaojd.com
+  port: 443
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: cg1c07.waimaojd.com
+  ws-path: /api/v1/graphql
+- name: vmess_cg1c01.waimaojd.com_443
+  type: vmess
+  server: cg1c01.waimaojd.com
+  port: 443
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: cg1c01.waimaojd.com
+  ws-path: /api/v1/graphql
+- name: vmess_cg1c04.waimaojd.com_443
+  type: vmess
+  server: cg1c04.waimaojd.com
+  port: 443
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: cg1c04.waimaojd.com
+  ws-path: /api/v1/graphql
+- name: vmess_digitalocean.com_8080
+  type: vmess
+  server: digitalocean.com
+  port: 8080
+  uuid: nasnet
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-headers:
+    Host: nasnet-571299667.rahavard365.co
+  ws-path: /NASNET/cdn?ed=2560
+- name: vmess_82.198.246.97_180
+  type: vmess
+  server: 82.198.246.97
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-path: /
+- name: vmess_dddffgthyu.922922.shop_80
+  type: vmess
+  server: dddffgthyu.922922.shop
+  port: 80
+  uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-headers:
+    Host: dDdFfGTHYU.922922.SHOP
+  ws-path: /RkUUbqhA9GJZBROjL3Q5vTymr
+- name: vmess_ccc.922922.shop_80
+  type: vmess
+  server: ccc.922922.shop
+  port: 80
+  uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-headers:
+    Host: cCc.922922.ShOp
+  ws-path: /RkUUbqhA9GJZBROjL3Q5vTymr
+- name: vmess_ZzXxdE.922922.sHOp_80
+  type: vmess
+  server: ZzXxdE.922922.sHOp
+  port: 80
+  uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-headers:
+    Host: ZzXxdE.922922.sHOp
+  ws-path: /RkUUbqhA9GJZBROjL3Q5vTymr
 - name: vmess_172.67.204.84_8080
   type: vmess
   server: 172.67.204.84
@@ -740,18 +987,6 @@ proxies:
   ws-headers:
     Host: fullaccesstohongkongnet.azurewebsites.net
   ws-path: /
-- name: vmess_190.93.245.2_443
-  type: vmess
-  server: 190.93.245.2
-  port: 443
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: lg1.trump2023.us
-  ws-path: /
 - name: vmess_tunnel1.qqa678.com_47083
   type: vmess
   server: tunnel1.qqa678.com
@@ -834,16 +1069,6 @@ proxies:
   tls: false
   network: ws
   ws-path: /vmess
-- name: vmess_203.30.190.191_443
-  type: vmess
-  server: 203.30.190.191
-  port: 443
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /5QNROSRV
 - name: vmess_v2.kdanmmgmasz.xyz_443
   type: vmess
   server: v2.kdanmmgmasz.xyz
@@ -878,18 +1103,6 @@ proxies:
   tls: true
   network: ws
   ws-path: /5QNROSRV
-- name: vmess_fullaccesstojapannetsubnode1.azurewebsites.net_443
-  type: vmess
-  server: fullaccesstojapannetsubnode1.azurewebsites.net
-  port: 443
-  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: fullaccesstojapannetsubnode1.azurewebsites.net
-  ws-path: /ws
 - name: vmess_172.67.143.74_443
   type: vmess
   server: 172.67.143.74
@@ -901,18 +1114,6 @@ proxies:
   network: ws
   ws-headers:
     Host: pure.daycat.space
-  ws-path: /
-- name: vmess_172.64.144.100_443
-  type: vmess
-  server: 172.64.144.100
-  port: 443
-  uuid: 6e9217de-ad7e-4a67-bd17-a6dca951733b
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: lg3.zhujicn2.com
   ws-path: /
 - name: vmess_141.101.115.2_443
   type: vmess
@@ -984,18 +1185,6 @@ proxies:
   ws-headers:
     Host: 38.72img.xyz
   ws-path: /
-- name: vmess_141.101.114.100_443
-  type: vmess
-  server: 141.101.114.100
-  port: 443
-  uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: lg1.cfcdn2.xyz
-  ws-path: /VHONOFZ3
 - name: vmess_198.41.203.6_443
   type: vmess
   server: 198.41.203.6
@@ -1244,18 +1433,6 @@ proxies:
   ws-headers:
     Host: oplg1.cfcdn2.xyz
   ws-path: /AUIKN8AU
-- name: vmess_203.30.191.191_443
-  type: vmess
-  server: 203.30.191.191
-  port: 443
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: oplg1.cfcdn2.xyz
-  ws-path: /AUIKN8AU
 - name: vmess_172.67.115.249_8443
   type: vmess
   server: 172.67.115.249
@@ -1371,18 +1548,6 @@ proxies:
 - name: vmess_203.30.191.7_443
   type: vmess
   server: 203.30.191.7
-  port: 443
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: oplg1.cfcdn2.xyz
-  ws-path: /AUIKN8AU
-- name: vmess_23.227.38.25_443
-  type: vmess
-  server: 23.227.38.25
   port: 443
   uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
   alterId: 0
@@ -1518,18 +1683,6 @@ proxies:
   ws-headers:
     Host: /ws
   ws-path: /
-- name: vmess_104.19.36.160_443
-  type: vmess
-  server: 104.19.36.160
-  port: 443
-  uuid: ad806487-2d26-4636-98b6-ab85cc8521f7
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: restless-haze-599b.zjjcool.workers.dev
-  ws-path: /
 - name: vmess_104.21.48.161_443
   type: vmess
   server: 104.21.48.161
@@ -1554,50 +1707,6 @@ proxies:
   ws-headers:
     Host: free.frli.xyz
   ws-path: /y475
-- name: vmess_104.19.110.34_443
-  type: vmess
-  server: 104.19.110.34
-  port: 443
-  uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80
-  alterId: 1
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: free.frli.xyz
-  ws-path: /y475
-- name: vmess_143.198.219.182_80
-  type: vmess
-  server: 143.198.219.182
-  port: 80
-  uuid: e9c4ce52-9a78-4381-b6f8-23350bc4d606
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-- name: vmess_146.190.82.241_80
-  type: vmess
-  server: 146.190.82.241
-  port: 80
-  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-- name: vmess_sg-5.0rd.net_443
-  type: vmess
-  server: sg-5.0rd.net
-  port: 443
-  uuid: b7200fb0-b107-11ed-b233-205c6d5f5d78
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: sg-5.0rd.net
-  ws-path: /uvxrjhi0
 - name: vmess_173.245.49.143_443
   type: vmess
   server: 173.245.49.143
@@ -1608,36 +1717,6 @@ proxies:
   tls: true
   network: ws
   ws-path: /233blog
-- name: vmess_203.30.190.192_443
-  type: vmess
-  server: 203.30.190.192
-  port: 443
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /A2DJOPFT
-- name: vmess_203.30.191.8_443
-  type: vmess
-  server: 203.30.191.8
-  port: 443
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /AUIKN8AU
-- name: vmess_172.104.78.98_443
-  type: vmess
-  server: 172.104.78.98
-  port: 443
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /chat
 - name: vmess_172.67.156.140_8443
   type: vmess
   server: 172.67.156.140
@@ -1668,16 +1747,6 @@ proxies:
   tls: true
   network: ws
   ws-path: /8cda48b3
-- name: vmess_146.190.114.190_80
-  type: vmess
-  server: 146.190.114.190
-  port: 80
-  uuid: db8f8bbe-c589-4316-8063-49baaf0fd858
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
 - name: vmess_us-2.0rd.net_443
   type: vmess
   server: us-2.0rd.net
@@ -1690,26 +1759,6 @@ proxies:
   ws-headers:
     Host: us-2.0rd.net
   ws-path: /tq98e0yk
-- name: vmess_146.190.82.241_443
-  type: vmess
-  server: 146.190.82.241
-  port: 443
-  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-- name: vmess_203.30.188.190_443
-  type: vmess
-  server: 203.30.188.190
-  port: 443
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /A2DJOPFT
 - name: vmess_kr-arm2.018999.xyz_443
   type: vmess
   server: kr-arm2.018999.xyz
@@ -1744,16 +1793,6 @@ proxies:
   ws-headers:
     Host: namer-us-sea-01-edgecast.qdns.live
   ws-path: /
-- name: vmess_104.19.40.222_8880
-  type: vmess
-  server: 104.19.40.222
-  port: 8880
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /d/65dd503.TG.WangCai2.WangCai_8:107690
 - name: vmess_russia.com_8080
   type: vmess
   server: russia.com
@@ -1766,16 +1805,6 @@ proxies:
   ws-headers:
     Host: russia.com
   ws-path: /api/v3/download.getFile
-- name: vmess_188.114.97.3_80
-  type: vmess
-  server: 188.114.97.3
-  port: 80
-  uuid: b25f8da6-54a2-49b3-bacf-8403b4c36556
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE
 - name: vmess_104.19.40.84_8880
   type: vmess
   server: 104.19.40.84
@@ -1846,48 +1875,361 @@ proxies:
   tls: false
   network: ws
   ws-path: /graphql
+- name: trojan_167.17.185.152_10889
+  type: trojan
+  server: 167.17.185.152
+  port: 10889
+  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
+- name: trojan_153.121.45.139_3423
+  type: trojan
+  server: 153.121.45.139
+  port: 3423
+  password: c1d83c0c7d57cead4379ba14a82df69b
+  sni: www.nintendogames.net
+- name: trojan_160.16.124.55_491
+  type: trojan
+  server: 160.16.124.55
+  port: 491
+  password: c1d83c0c7d57cead4379ba14a82df69b
+  sni: www.nintendogames.net
+- name: trojan_83.143.87.9_18581
+  type: trojan
+  server: 83.143.87.9
+  port: 18581
+  password: RPyW62_b9aH.ztJKeArou
+  sni: 83.143.87.9
+- name: trojan_219.76.135.98_443
+  type: trojan
+  server: 219.76.135.98
+  port: 443
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+- name: trojan_172.66.44.230_8443
+  type: trojan
+  server: 172.66.44.230
+  port: 8443
+  password: 8r%252525253C%252525255B9%2525252527l6hAO%25252525238ZQi
+  sni: Koma-YT.PAGeS.Dev
+- name: trojan_205.185.115.223_19258
+  type: trojan
+  server: 205.185.115.223
+  port: 19258
+  password: iWnFtzMiac
+  sni: cloudflare.com
+- name: trojan_v1.dabache.top_8443
+  type: trojan
+  server: v1.dabache.top
+  port: 8443
+  password: T9BpZIVMNv
+  sni: sweden.vmaxpanel.com
+- name: trojan_tuntro006.instconn.com_443
+  type: trojan
+  server: tuntro006.instconn.com
+  port: 443
+  password: 63b21d86-a49c-4936-a634-0b5af3e30433
+  sni: torontorm1.686911.xyz
+- name: trojan_216.24.57.250_443
+  type: trojan
+  server: 216.24.57.250
+  port: 443
+  password: 5027e2a4-c4d2-463a-9508-83a2c7d1ad83
+  sni: afrcloud1.mmv.kr
+- name: trojan_216.24.57.250_443
+  type: trojan
+  server: 216.24.57.250
+  port: 443
+  password: 5027e2a4-c4d2-463a-9508-83a2c7d1ad83
+- name: trojan_tuntro006.instconn.com_443
+  type: trojan
+  server: tuntro006.instconn.com
+  port: 443
+  password: 63b21d86-a49c-4936-a634-0b5af3e30433
+  sni: torontorm1.686911.xyz
+- name: trojan_212.193.18.144_36158
+  type: trojan
+  server: 212.193.18.144
+  port: 36158
+  password: ZblhWr0mqMakCPg.N
+  sni: ya.ru
+- name: trojan_104.21.40.34_443
+  type: trojan
+  server: 104.21.40.34
+  port: 443
+  password: humanity
+- name: trojan_www.calmlunch.com_443
+  type: trojan
+  server: www.calmlunch.com
+  port: 443
+  password: humanity
+- name: trojan_hk.scpnb.top_19066
+  type: trojan
+  server: hk.scpnb.top
+  port: 19066
+  password: q4oerwN2UA
+  sni: www.amazon.com
+- name: trojan_188.114.97.3_443
+  type: trojan
+  server: 188.114.97.3
+  port: 443
+  password: Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q
+- name: trojan_208.103.161.110_443
+  type: trojan
+  server: 208.103.161.110
+  port: 443
+  password: humanity
+- name: trojan_v2.dabache.top_443
+  type: trojan
+  server: v2.dabache.top
+  port: 443
+  password: a9570330-769d-11ef-90dc-1577c1651679
+- name: trojan_45.15.140.107_19106
+  type: trojan
+  server: 45.15.140.107
+  port: 19106
+  password: tSk5LQoJr7F.WnRsUM4hT
+  sni: binaryboots.algorithmblanket.click
+- name: trojan_v3.dabache.top_8443
+  type: trojan
+  server: v3.dabache.top
+  port: 8443
+  password: T9BpZIVMNv
+- name: trojan_www.shopify.com_2096
+  type: trojan
+  server: www.shopify.com
+  port: 2096
+  password: f52d0a04-94ad-4f9e-9945-4c3d43374e36
+- name: trojan_university.lele233.com_443
+  type: trojan
+  server: university.lele233.com
+  port: 443
+  password: 3628ca8d-6371-45df-879c-2d3e5d110b51
+- name: trojan_152.67.160.174_443
+  type: trojan
+  server: 152.67.160.174
+  port: 443
+  password: 54080134-2cba-4535-8599-95650bd9aa54
+- name: trojan_kfjdi.pages.dev_443
+  type: trojan
+  server: kfjdi.pages.dev
+  port: 443
+  password: er668
+- name: trojan_51.38.99.96_443
+  type: trojan
+  server: 51.38.99.96
+  port: 443
+  password: b8808043-6566-4923-9195-e66bfb553d57
+  sni: ba24.ir
+- name: trojan_cdnfire.xiaomispeed.com_25502
+  type: trojan
+  server: cdnfire.xiaomispeed.com
+  port: 25502
+  password: 2d259b0f-7639-45f0-b2fe-8b26773741f0
+  sni: cdnfire.xiaomispeed.com
+- name: trojan_cdnfire.xiaomispeed.com_21102
+  type: trojan
+  server: cdnfire.xiaomispeed.com
+  port: 21102
+  password: 92a6b34f-e97a-491a-ac10-2a18af935706
+  sni: cdnfire.xiaomispeed.com
+- name: trojan_172.67.204.84_443
+  type: trojan
+  server: 172.67.204.84
+  port: 443
+  password: qj1Dz1CJmFQRhWr1SP80aA
+  sni: cdn-21.gsmxreality.com
+- name: trojan_103.195.236.24_443
+  type: trojan
+  server: 103.195.236.24
+  port: 443
+  password: 5623be5f-c9da-4511-81a9-b4b39b16edae
+- name: ss_admin.c2.havij.co_443
+  type: ss
+  server: admin.c2.havij.co
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: kaQH3hGdcP80XEDI
+- name: ss_admin.c2.havij.co_443
+  type: ss
+  server: admin.c2.havij.co
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: kaQH3hGdcP80XEDI
+- name: ss_103.186.154.13_38388
+  type: ss
+  server: 103.186.154.13
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+- name: ss_103.186.154.144_38388
+  type: ss
+  server: 103.186.154.144
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+- name: ss_103.186.154.153_38388
+  type: ss
+  server: 103.186.154.153
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+- name: ss_103.186.154.158_38388
+  type: ss
+  server: 103.186.154.158
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+- name: ss_103.186.154.176_38388
+  type: ss
+  server: 103.186.154.176
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+- name: ss_103.186.154.224_38388
+  type: ss
+  server: 103.186.154.224
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+- name: ss_103.186.154.233_38388
+  type: ss
+  server: 103.186.154.233
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+- name: ss_103.186.154.252_38388
+  type: ss
+  server: 103.186.154.252
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+- name: ss_103.186.154.16_38388
+  type: ss
+  server: 103.186.154.16
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+- name: ss_154.90.55.15_11201
+  type: ss
+  server: 154.90.55.15
+  port: 11201
+  cipher: rc4-md5
+  password: b13c4c021cec2c0b
+- name: ss_103.186.154.70_38388
+  type: ss
+  server: 103.186.154.70
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+- name: ss_103.186.154.77_38388
+  type: ss
+  server: 103.186.154.77
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+- name: ss_103.186.155.10_38388
+  type: ss
+  server: 103.186.155.10
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+- name: ss_103.186.155.112_38388
+  type: ss
+  server: 103.186.155.112
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+- name: ss_103.186.155.141_38388
+  type: ss
+  server: 103.186.155.141
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+- name: ss_103.186.155.43_38388
+  type: ss
+  server: 103.186.155.43
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+- name: ss_103.186.155.48_38388
+  type: ss
+  server: 103.186.155.48
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+- name: ss_103.186.155.54_38388
+  type: ss
+  server: 103.186.155.54
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+- name: ss_103.186.155.55_38388
+  type: ss
+  server: 103.186.155.55
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+- name: ss_103.186.155.69_38388
+  type: ss
+  server: 103.186.155.69
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+- name: ss_103.186.155.83_38388
+  type: ss
+  server: 103.186.155.83
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+- name: ss_154.53.34.27_45234
+  type: ss
+  server: 154.53.34.27
+  port: 45234
+  cipher: chacha20-ietf-poly1305
+  password: 5d8680180abdb564
 proxy-groups:
 - name: Auto
   type: select
   proxies:
-  - trojan_212.193.18.144_36158
-  - trojan_80.173.230.196_26279
-  - trojan_tuntro006.instconn.com_443
-  - trojan_80.173.230.196_26279
-  - trojan_80.173.231.254_12420
-  - trojan_university.lele233.com_443
-  - trojan_140.82.35.244_20994
-  - trojan_45.32.158.138_20994
-  - trojan_green2.cdntencentmusic.com_35501
-  - trojan_green2.cdntencentmusic.com_31103
-  - trojan_51.83.186.142_443
-  - trojan_152.67.160.174_443
-  - trojan_kfjdi.pages.dev_443
-  - trojan_109.234.211.66_8443
-  - trojan_green2.cdntencentmusic.com_35502
-  - trojan_51.38.99.96_443
-  - trojan_cdnfire.xiaomispeed.com_25502
-  - trojan_cdnfire.xiaomispeed.com_21102
-  - trojan_172.67.204.84_443
-  - trojan_103.195.236.24_443
-  - ss_82.38.31.199_8080
-  - ss_admin.c2.havij.co_443
-  - ss_145.133.64.171_443
-  - ss_103.186.154.216_38388
-  - ss_103.186.154.228_38388
-  - ss_103.186.154.229_38388
-  - ss_103.186.154.32_38388
-  - ss_103.186.154.36_38388
-  - ss_103.186.155.107_38388
-  - ss_103.186.155.123_38388
-  - ss_103.186.155.3_38388
-  - ss_103.186.155.33_38388
-  - ss_92.223.62.214_11201
-  - ss_103.186.155.36_38388
-  - ss_62.133.60.60_7048
-  - ss_94.156.170.43_9000
-  - ss_158.247.205.87_443
+  - vmess_HHhjki.TAIwaN2028.indEvS.in_80
+  - vmess_154.83.2.156_2086
+  - vmess_172.64.152.23_8443
+  - vmess_172.64.152.23_8443
+  - vmess_hgtrojan.zabc.net_2083
+  - vmess_154.83.2.156_2086
+  - vmess_c7.620720.xyz_8443
+  - vmess_t1.620720.xyz_8443
+  - vmess_t1.620720.xyz_8443
+  - vmess_cg1c07.waimaojd.com_443
+  - vmess_sy4.620720.xyz_443
+  - vmess_hgtrojan.zabc.net_2083
+  - vmess_cg1c01.waimaojd.com_443
+  - vmess_cg1c04.waimaojd.com_443
+  - vmess_cg1c14.waimaojd.com_443
+  - vmess_154.83.2.156_2086
+  - vmess_154.83.2.156_2086
+  - vmess_160.191.245.48_58623
+  - vmess_aflzzul.meiquankongjian.com_52511
+  - vmess_eed4.7777125.xyz_443
+  - vmess_rrrgt.2030.pp.ua_80
   - vmess_82.198.246.97_180
+  - vmess_YyYYuUI.iRAn1912.dpDNs.oRG_443
+  - vmess_v30.hdacd.com_30830
+  - vmess_t1.620720.xyz_8443
+  - vmess_v10.hdacd.com_30807
+  - vmess_82.198.246.97_180
+  - vmess_154.83.2.156_2086
+  - vmess_154.83.2.156_2086
+  - vmess_v10.hdacd.com_30807
+  - vmess_sy4.620720.xyz_443
+  - vmess_t1.620720.xyz_8443
+  - vmess_cg1c07.waimaojd.com_443
+  - vmess_cg1c01.waimaojd.com_443
+  - vmess_cg1c04.waimaojd.com_443
+  - vmess_digitalocean.com_8080
+  - vmess_82.198.246.97_180
+  - vmess_dddffgthyu.922922.shop_80
+  - vmess_ccc.922922.shop_80
+  - vmess_ZzXxdE.922922.sHOp_80
   - vmess_172.67.204.84_8080
   - vmess_162.159.128.7_443
   - vmess_203.30.188.188_443
@@ -1931,7 +2273,6 @@ proxy-groups:
   - vmess_172.67.164.125_443
   - vmess_162.159.135.42_443
   - vmess_fullaccesstohongkongnet.azurewebsites.net_443
-  - vmess_190.93.245.2_443
   - vmess_tunnel1.qqa678.com_47083
   - vmess_tunnel2.qqa678.com_47084
   - vmess_190.93.244.2_443
@@ -1939,20 +2280,16 @@ proxy-groups:
   - vmess_surongwei.eu.org_443
   - vmess_23.227.38.40_443
   - vmess_147.135.112.248_80
-  - vmess_203.30.190.191_443
   - vmess_v2.kdanmmgmasz.xyz_443
   - vmess_cf.fovi.tk_2053
   - vmess_141.101.114.31_443
-  - vmess_fullaccesstojapannetsubnode1.azurewebsites.net_443
   - vmess_172.67.143.74_443
-  - vmess_172.64.144.100_443
   - vmess_141.101.115.2_443
   - vmess_85.206.165.36_443
   - vmess_172.67.218.162_443
   - vmess_172.67.196.0_443
   - vmess_34.72img.xyz_443
   - vmess_172.66.40.10_443
-  - vmess_141.101.114.100_443
   - vmess_198.41.203.6_443
   - vmess_198.41.203.3_443
   - vmess_141.101.114.102_443
@@ -1974,7 +2311,6 @@ proxy-groups:
   - vmess_103.21.244.70_8443
   - vmess_203.30.191.20_443
   - vmess_203.30.191.6_443
-  - vmess_203.30.191.191_443
   - vmess_172.67.115.249_8443
   - vmess_173.245.49.111_8443
   - vmess_103.21.244.249_8443
@@ -1986,7 +2322,6 @@ proxy-groups:
   - vmess_203.30.189.189_443
   - vmess_66.235.200.22_443
   - vmess_203.30.191.7_443
-  - vmess_23.227.38.25_443
   - vmess_103.21.244.226_8443
   - vmess_103.21.244.219_8443
   - vmess_23.227.38.27_443
@@ -1998,30 +2333,17 @@ proxy-groups:
   - vmess_172.67.77.95_443
   - vmess_104.16.89.44_443
   - vmess_www.kernels.bid_443
-  - vmess_104.19.36.160_443
   - vmess_104.21.48.161_443
   - vmess_104.25.52.187_443
-  - vmess_104.19.110.34_443
-  - vmess_143.198.219.182_80
-  - vmess_146.190.82.241_80
-  - vmess_sg-5.0rd.net_443
   - vmess_173.245.49.143_443
-  - vmess_203.30.190.192_443
-  - vmess_203.30.191.8_443
-  - vmess_172.104.78.98_443
   - vmess_172.67.156.140_8443
   - vmess_103.21.244.113_8443
   - vmess_103.21.244.91_8443
-  - vmess_146.190.114.190_80
   - vmess_us-2.0rd.net_443
-  - vmess_146.190.82.241_443
-  - vmess_203.30.188.190_443
   - vmess_kr-arm2.018999.xyz_443
   - vmess_172.67.127.250_443
   - vmess_namer-us-sea-01-edgecast.qdns.live_2053
-  - vmess_104.19.40.222_8880
   - vmess_russia.com_8080
-  - vmess_188.114.97.3_80
   - vmess_104.19.40.84_8880
   - vmess_104.19.40.99_8880
   - vmess_45.80.111.169_8880
@@ -2029,6 +2351,60 @@ proxy-groups:
   - vmess_51.159.2.152_80
   - vmess_198.41.208.172_443
   - vmess_94.130.184.57_80
+  - trojan_167.17.185.152_10889
+  - trojan_153.121.45.139_3423
+  - trojan_160.16.124.55_491
+  - trojan_83.143.87.9_18581
+  - trojan_219.76.135.98_443
+  - trojan_172.66.44.230_8443
+  - trojan_205.185.115.223_19258
+  - trojan_v1.dabache.top_8443
+  - trojan_tuntro006.instconn.com_443
+  - trojan_216.24.57.250_443
+  - trojan_216.24.57.250_443
+  - trojan_tuntro006.instconn.com_443
+  - trojan_212.193.18.144_36158
+  - trojan_104.21.40.34_443
+  - trojan_www.calmlunch.com_443
+  - trojan_hk.scpnb.top_19066
+  - trojan_188.114.97.3_443
+  - trojan_208.103.161.110_443
+  - trojan_v2.dabache.top_443
+  - trojan_45.15.140.107_19106
+  - trojan_v3.dabache.top_8443
+  - trojan_www.shopify.com_2096
+  - trojan_university.lele233.com_443
+  - trojan_152.67.160.174_443
+  - trojan_kfjdi.pages.dev_443
+  - trojan_51.38.99.96_443
+  - trojan_cdnfire.xiaomispeed.com_25502
+  - trojan_cdnfire.xiaomispeed.com_21102
+  - trojan_172.67.204.84_443
+  - trojan_103.195.236.24_443
+  - ss_admin.c2.havij.co_443
+  - ss_admin.c2.havij.co_443
+  - ss_103.186.154.13_38388
+  - ss_103.186.154.144_38388
+  - ss_103.186.154.153_38388
+  - ss_103.186.154.158_38388
+  - ss_103.186.154.176_38388
+  - ss_103.186.154.224_38388
+  - ss_103.186.154.233_38388
+  - ss_103.186.154.252_38388
+  - ss_103.186.154.16_38388
+  - ss_154.90.55.15_11201
+  - ss_103.186.154.70_38388
+  - ss_103.186.154.77_38388
+  - ss_103.186.155.10_38388
+  - ss_103.186.155.112_38388
+  - ss_103.186.155.141_38388
+  - ss_103.186.155.43_38388
+  - ss_103.186.155.48_38388
+  - ss_103.186.155.54_38388
+  - ss_103.186.155.55_38388
+  - ss_103.186.155.69_38388
+  - ss_103.186.155.83_38388
+  - ss_154.53.34.27_45234
 rules:
 - DOMAIN-SUFFIX,google.com,Auto
 - FINAL,Auto
