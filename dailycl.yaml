@@ -1,40 +1,16 @@
 proxies:
-- name: vmess_sy4.620720.xyz_443
-  type: vmess
-  server: sy4.620720.xyz
-  port: 443
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: sy4.620720.xyz
-  ws-path: /
-- name: vmess_t1.620720.xyz_8443
-  type: vmess
-  server: t1.620720.xyz
-  port: 8443
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: t1.620720.xyz
-  ws-path: /
-- name: vmess_sy4.620720.xyz_443
-  type: vmess
-  server: sy4.620720.xyz
-  port: 443
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: sy4.620720.xyz
-  ws-path: /
+- name: ss_185.223.82.82_10021
+  type: ss
+  server: 185.223.82.82
+  port: 10021
+  cipher: chacha20-ietf-poly1305
+  password: m02X9p9Cqn3Ic4l6PyJMF8
+- name: ss_185.223.82.82_10021
+  type: ss
+  server: 185.223.82.82
+  port: 10021
+  cipher: chacha20-ietf-poly1305
+  password: m02X9p9Cqn3Ic4l6PyJMF8
 - name: vmess_t1.620720.xyz_8443
   type: vmess
   server: t1.620720.xyz
@@ -59,6 +35,18 @@ proxies:
   ws-headers:
     Host: cg1c07.waimaojd.com
   ws-path: /api/v1/graphql
+- name: vmess_sy4.620720.xyz_443
+  type: vmess
+  server: sy4.620720.xyz
+  port: 443
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: sy4.620720.xyz
+  ws-path: /
 - name: vmess_hgtrojan.zabc.net_2083
   type: vmess
   server: hgtrojan.zabc.net
@@ -95,210 +83,29 @@ proxies:
   ws-headers:
     Host: cg1c14.waimaojd.com
   ws-path: /api/v1/graphql
-- name: vmess_zdqbk.cmvvb.online_8443
+- name: vmess_82.198.246.97_180
   type: vmess
-  server: zdqbk.cmvvb.online
-  port: 8443
-  uuid: ef46b74c-b3ef-4633-9818-0af6226c4060
+  server: 82.198.246.97
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: zdqbk.cmvvb.online
-  ws-path: /
-- name: vmess_v10.hdacd.com_30807
-  type: vmess
-  server: v10.hdacd.com
-  port: 30807
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
   cipher: auto
   tls: false
   network: tcp
   ws-headers:
-    Host: v10.hdacd.com
+    Host: cf.130519.xyz
   ws-path: /
-- name: ss_103.186.154.180_38388
-  type: ss
-  server: 103.186.154.180
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.154.13_38388
-  type: ss
-  server: 103.186.154.13
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.154.17_38388
-  type: ss
-  server: 103.186.154.17
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.154.178_38388
-  type: ss
-  server: 103.186.154.178
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.154.182_38388
-  type: ss
-  server: 103.186.154.182
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.154.187_38388
-  type: ss
-  server: 103.186.154.187
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.154.192_38388
-  type: ss
-  server: 103.186.154.192
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.154.197_38388
-  type: ss
-  server: 103.186.154.197
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.154.204_38388
-  type: ss
-  server: 103.186.154.204
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.154.231_38388
-  type: ss
-  server: 103.186.154.231
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.154.250_38388
-  type: ss
-  server: 103.186.154.250
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.154.37_38388
-  type: ss
-  server: 103.186.154.37
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.154.45_38388
-  type: ss
-  server: 103.186.154.45
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.155.133_38388
-  type: ss
-  server: 103.186.155.133
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.155.2_38388
-  type: ss
-  server: 103.186.155.2
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.155.21_38388
-  type: ss
-  server: 103.186.155.21
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.155.225_38388
-  type: ss
-  server: 103.186.155.225
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.155.237_38388
-  type: ss
-  server: 103.186.155.237
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.155.30_38388
-  type: ss
-  server: 103.186.155.30
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.155.71_38388
-  type: ss
-  server: 103.186.155.71
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.155.81_38388
-  type: ss
-  server: 103.186.155.81
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.154.218_38388
-  type: ss
-  server: 103.186.154.218
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.154.41_38388
-  type: ss
-  server: 103.186.154.41
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.155.119_38388
-  type: ss
-  server: 103.186.155.119
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.155.12_38388
-  type: ss
-  server: 103.186.155.12
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.155.131_38388
-  type: ss
-  server: 103.186.155.131
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.155.15_38388
-  type: ss
-  server: 103.186.155.15
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: trojan_touching-pigeon.rooster465.autos_443
+- name: trojan_80.173.230.196_26279
   type: trojan
-  server: touching-pigeon.rooster465.autos
+  server: 80.173.230.196
+  port: 26279
+  password: a5inYFE%253DJGV89%252BhjxIqgDp1tcWBd6
+- name: trojan_58.152.25.253_443
+  type: trojan
+  server: 58.152.25.253
   port: 443
-  password: WF42809561
-  sni: touching-pigeon.rooster465.autos
-- name: trojan_funky-platypus.rooster465.autos_443
-  type: trojan
-  server: funky-platypus.rooster465.autos
-  port: 443
-  password: WF42809561
-  sni: funky-platypus.rooster465.autos
-- name: trojan_78.159.131.12_28259
-  type: trojan
-  server: 78.159.131.12
-  port: 28259
-  password: MeaDiUmPlkWbZJ2BON8tz
-  sni: ads.x5.ru
+  password: BxceQaOe
+  sni: t.me/ripaojiedian
 - name: trojan_216.24.57.250_443
   type: trojan
   server: 216.24.57.250
@@ -309,46 +116,17 @@ proxy-groups:
 - name: Auto
   type: select
   proxies:
-  - vmess_sy4.620720.xyz_443
-  - vmess_t1.620720.xyz_8443
-  - vmess_sy4.620720.xyz_443
+  - ss_185.223.82.82_10021
+  - ss_185.223.82.82_10021
   - vmess_t1.620720.xyz_8443
   - vmess_cg1c07.waimaojd.com_443
+  - vmess_sy4.620720.xyz_443
   - vmess_hgtrojan.zabc.net_2083
   - vmess_cg1c01.waimaojd.com_443
   - vmess_cg1c14.waimaojd.com_443
-  - vmess_zdqbk.cmvvb.online_8443
-  - vmess_v10.hdacd.com_30807
-  - ss_103.186.154.180_38388
-  - ss_103.186.154.13_38388
-  - ss_103.186.154.17_38388
-  - ss_103.186.154.178_38388
-  - ss_103.186.154.182_38388
-  - ss_103.186.154.187_38388
-  - ss_103.186.154.192_38388
-  - ss_103.186.154.197_38388
-  - ss_103.186.154.204_38388
-  - ss_103.186.154.231_38388
-  - ss_103.186.154.250_38388
-  - ss_103.186.154.37_38388
-  - ss_103.186.154.45_38388
-  - ss_103.186.155.133_38388
-  - ss_103.186.155.2_38388
-  - ss_103.186.155.21_38388
-  - ss_103.186.155.225_38388
-  - ss_103.186.155.237_38388
-  - ss_103.186.155.30_38388
-  - ss_103.186.155.71_38388
-  - ss_103.186.155.81_38388
-  - ss_103.186.154.218_38388
-  - ss_103.186.154.41_38388
-  - ss_103.186.155.119_38388
-  - ss_103.186.155.12_38388
-  - ss_103.186.155.131_38388
-  - ss_103.186.155.15_38388
-  - trojan_touching-pigeon.rooster465.autos_443
-  - trojan_funky-platypus.rooster465.autos_443
-  - trojan_78.159.131.12_28259
+  - vmess_82.198.246.97_180
+  - trojan_80.173.230.196_26279
+  - trojan_58.152.25.253_443
   - trojan_216.24.57.250_443
 rules:
 - DOMAIN-SUFFIX,google.com,Auto
