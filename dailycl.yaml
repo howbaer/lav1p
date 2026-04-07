@@ -8,27 +8,6 @@ proxies:
   cipher: auto
   tls: false
   network: tcp
-- name: vmess_v12.hdacd.com_30812
-  type: vmess
-  server: v12.hdacd.com
-  port: 30812
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-- name: vmess_cf.090227.xyz_443
-  type: vmess
-  server: cf.090227.xyz
-  port: 443
-  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: sgal.dagrate.eu.org
-  ws-path: /
 - name: vmess_t1.620720.xyz_8443
   type: vmess
   server: t1.620720.xyz
@@ -53,30 +32,18 @@ proxies:
   ws-headers:
     Host: cg1c07.waimaojd.com
   ws-path: /api/v1/graphql
-- name: vmess_cg1c01.waimaojd.com_443
+- name: vmess_sy4.620720.xyz_443
   type: vmess
-  server: cg1c01.waimaojd.com
+  server: sy4.620720.xyz
   port: 443
-  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
   alterId: 0
   cipher: auto
   tls: true
   network: ws
   ws-headers:
-    Host: cg1c01.waimaojd.com
-  ws-path: /api/v1/graphql
-- name: vmess_cg1c04.waimaojd.com_443
-  type: vmess
-  server: cg1c04.waimaojd.com
-  port: 443
-  uuid: be8e3136-b874-4085-bd23-ec3699300490
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: cg1c04.waimaojd.com
-  ws-path: /api/v1/graphql
+    Host: sy4.620720.xyz
+  ws-path: /
 - name: vmess_cg1c14.waimaojd.com_443
   type: vmess
   server: cg1c14.waimaojd.com
@@ -89,6 +56,16 @@ proxies:
   ws-headers:
     Host: cg1c14.waimaojd.com
   ws-path: /api/v1/graphql
+- name: vmess_82.198.246.250_180
+  type: vmess
+  server: 82.198.246.250
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-path: /
 - name: vmess_82.198.246.97_180
   type: vmess
   server: 82.198.246.97
@@ -98,466 +75,262 @@ proxies:
   cipher: auto
   tls: false
   network: tcp
-  ws-headers:
-    Host: 2001:bc8:32d7:302::10
-  ws-path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-- name: vmess_v12.hdacd.com_30812
-  type: vmess
-  server: v12.hdacd.com
-  port: 30812
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-headers:
-    Host: 4120-BE04-13ef56096989.457.PP.ua
-  ws-path: /kT5VHYcMrphesqROzSPoHrBo
-- name: vmess_v10.hdacd.com_30807
-  type: vmess
-  server: v10.hdacd.com
-  port: 30807
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-headers:
-    Host: v10.hdacd.com
   ws-path: /
-- name: vmess_v36.hdacd.com_30836
-  type: vmess
-  server: v36.hdacd.com
-  port: 30836
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-headers:
-    Host: v36.hdacd.com
-  ws-path: /
-- name: vmess_v9.hdacd.com_30809
-  type: vmess
-  server: v9.hdacd.com
-  port: 30809
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-headers:
-    Host: v9.hdacd.com
-  ws-path: /
-- name: vmess_v8.hdacd.com_30808
-  type: vmess
-  server: v8.hdacd.com
-  port: 30808
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-headers:
-    Host: v8.hdacd.com
-  ws-path: /
-- name: vmess_v24.hdacd.com_30824
-  type: vmess
-  server: v24.hdacd.com
-  port: 30824
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-headers:
-    Host: v24.hdacd.com
-  ws-path: /
-- name: trojan_82.26.155.199_10369
-  type: trojan
-  server: 82.26.155.199
-  port: 10369
-  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
-- name: trojan_216.24.57.250_443
-  type: trojan
-  server: 216.24.57.250
-  port: 443
-  password: 5027e2a4-c4d2-463a-9508-83a2c7d1ad83
-- name: trojan_n2.chateditimage.com_443
-  type: trojan
-  server: n2.chateditimage.com
-  port: 443
-  password: de7d6444-a7a8-4b3a-bf26-bc6939bb0279
-  sni: n2.chateditimage.com
-- name: trojan_104.238.162.6_13109
-  type: trojan
-  server: 104.238.162.6
-  port: 13109
-  password: WwipNOSqUh49CEapMmIrv6m6AZLf-EC0%2525252BT
-  sni: ord2.edge-command.click
-- name: trojan_152.53.200.98_8444
-  type: trojan
-  server: 152.53.200.98
-  port: 8444
-  password: trojan
-  sni: jflsjlaf.pages.dev
-- name: trojan_109.234.211.66_2087
-  type: trojan
-  server: 109.234.211.66
-  port: 2087
-  password: trojan
-  sni: store.timimi.dpdns.org
-- name: trojan_109.234.211.66_8443
-  type: trojan
-  server: 109.234.211.66
-  port: 8443
-  password: trojan
-  sni: store.timimi.dpdns.org
-- name: trojan_216.238.102.254_26593
-  type: trojan
-  server: 216.238.102.254
-  port: 26593
-  password: BvzUvt45hON9We5X9wM6I9ZrxHRcYd46QK
-  sni: sao2.cdn-graph.click
-- name: trojan_mfyousheng.nl.eu.org_443
-  type: trojan
-  server: mfyousheng.nl.eu.org
-  port: 443
-  password: Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q
-- name: trojan_v3.dabache.top_8443
-  type: trojan
-  server: v3.dabache.top
-  port: 8443
-  password: T9BpZIVMNv
-- name: trojan_166.88.197.60_26650
-  type: trojan
-  server: 166.88.197.60
-  port: 26650
-  password: UNWA6USASAb6%2525253DuAAZeZMFd%2525252B2uKB4.d5KOm
-  sni: sea9.firewallcontract.click
-- name: trojan_104.21.40.34_443
-  type: trojan
-  server: 104.21.40.34
-  port: 443
-  password: humanity
-- name: trojan_188.114.96.3_443
-  type: trojan
-  server: 188.114.96.3
-  port: 443
-  password: humanity
-- name: trojan_104.18.32.47_443
-  type: trojan
-  server: 104.18.32.47
-  port: 443
-  password: humanity
-- name: trojan_172.67.180.92_443
-  type: trojan
-  server: 172.67.180.92
-  port: 443
-  password: humanity
-- name: trojan_82.26.155.3_10369
-  type: trojan
-  server: 82.26.155.3
-  port: 10369
-  password: n5ix4FcMQYENMQPL%2525252BYKbvyJ8nZ84%2525252BbNTsj
-  sni: fra34.chasem2026sud.com
-- name: trojan_80.173.231.254_12420
-  type: trojan
-  server: 80.173.231.254
-  port: 12420
-  password: wp9IsiY82uQhcmgNC1eoBM
-  sni: www.semanticstaplegun.click
-- name: trojan_172.64.152.23_443
-  type: trojan
-  server: 172.64.152.23
-  port: 443
-  password: humanity
-- name: trojan_www.calmlunch.com_443
-  type: trojan
-  server: www.calmlunch.com
-  port: 443
-  password: humanity
-- name: trojan_ct.090227.xyz_443
-  type: trojan
-  server: ct.090227.xyz
-  port: 443
-  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-- name: trojan_185.18.250.245_443
-  type: trojan
-  server: 185.18.250.245
-  port: 443
-  password: humanity
-- name: trojan_38.60.89.136_50000
-  type: trojan
-  server: 38.60.89.136
-  port: 50000
-  password: trojan
-- name: trojan_185.18.250.252_443
-  type: trojan
-  server: 185.18.250.252
-  port: 443
-  password: humanity
-- name: trojan_ct.877774.xyz_443
-  type: trojan
-  server: ct.877774.xyz
-  port: 443
-  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-- name: trojan_208.103.161.110_443
-  type: trojan
-  server: 208.103.161.110
-  port: 443
-  password: humanity
-- name: trojan_v3.dabache.top_443
-  type: trojan
-  server: v3.dabache.top
-  port: 443
-  password: humanity
-- name: trojan_irancell.buzzmuzzpanel.online_443
-  type: trojan
-  server: irancell.buzzmuzzpanel.online
-  port: 443
-  password: freedom
-- name: trojan_104.18.8.83_443
-  type: trojan
-  server: 104.18.8.83
-  port: 443
-  password: humanity
 - name: ss_series-a2.samanehha.co_443
   type: ss
   server: series-a2.samanehha.co
   port: 443
   cipher: chacha20-ietf-poly1305
   password: W74XFALLLuw6m5IA
-- name: ss_103.186.154.14_38388
+- name: ss_103.186.154.174_38388
   type: ss
-  server: 103.186.154.14
+  server: 103.186.154.174
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.154.172_38388
+- name: ss_103.186.154.175_38388
   type: ss
-  server: 103.186.154.172
+  server: 103.186.154.175
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.154.183_38388
+- name: ss_103.186.154.213_38388
   type: ss
-  server: 103.186.154.183
+  server: 103.186.154.213
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.154.185_38388
+- name: ss_103.186.154.223_38388
   type: ss
-  server: 103.186.154.185
+  server: 103.186.154.223
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.154.188_38388
+- name: ss_103.186.154.226_38388
   type: ss
-  server: 103.186.154.188
+  server: 103.186.154.226
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.154.190_38388
+- name: ss_103.186.154.229_38388
   type: ss
-  server: 103.186.154.190
+  server: 103.186.154.229
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.154.205_38388
+- name: ss_103.186.154.43_38388
   type: ss
-  server: 103.186.154.205
+  server: 103.186.154.43
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.154.214_38388
+- name: ss_103.186.154.51_38388
   type: ss
-  server: 103.186.154.214
+  server: 103.186.154.51
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.154.220_38388
+- name: ss_103.186.154.55_38388
   type: ss
-  server: 103.186.154.220
+  server: 103.186.154.55
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.154.227_38388
+- name: ss_103.186.155.113_38388
   type: ss
-  server: 103.186.154.227
+  server: 103.186.155.113
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.154.236_38388
+- name: ss_103.186.155.125_38388
   type: ss
-  server: 103.186.154.236
+  server: 103.186.155.125
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.154.254_38388
+- name: ss_103.186.155.143_38388
   type: ss
-  server: 103.186.154.254
+  server: 103.186.155.143
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.154.39_38388
+- name: ss_103.186.155.144_38388
   type: ss
-  server: 103.186.154.39
+  server: 103.186.155.144
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.154.49_38388
+- name: ss_103.186.155.147_38388
   type: ss
-  server: 103.186.154.49
+  server: 103.186.155.147
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.154.58_38388
+- name: ss_103.186.155.18_38388
   type: ss
-  server: 103.186.154.58
+  server: 103.186.155.18
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.155.121_38388
+- name: ss_103.186.155.211_38388
   type: ss
-  server: 103.186.155.121
+  server: 103.186.155.211
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.155.128_38388
+- name: ss_103.186.155.221_38388
   type: ss
-  server: 103.186.155.128
+  server: 103.186.155.221
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.155.13_38388
+- name: ss_103.186.155.240_38388
   type: ss
-  server: 103.186.155.13
+  server: 103.186.155.240
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.155.183_38388
+- name: ss_103.186.155.58_38388
   type: ss
-  server: 103.186.155.183
+  server: 103.186.155.58
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.155.204_38388
-  type: ss
-  server: 103.186.155.204
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.155.214_38388
-  type: ss
-  server: 103.186.155.214
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.155.22_38388
-  type: ss
-  server: 103.186.155.22
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.155.233_38388
-  type: ss
-  server: 103.186.155.233
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.155.39_38388
-  type: ss
-  server: 103.186.155.39
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.155.45_38388
-  type: ss
-  server: 103.186.155.45
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: ss_103.186.155.154_38388
-  type: ss
-  server: 103.186.155.154
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+- name: trojan_31.192.233.38_8443
+  type: trojan
+  server: 31.192.233.38
+  port: 8443
+  password: nodes-d2ac438d
+  sni: node-hk-1.v2sv.top
+- name: trojan_104.238.162.6_13109
+  type: trojan
+  server: 104.238.162.6
+  port: 13109
+  password: WwipNOSqUh49CEapMmIrv6m6AZLf-EC0%2525252BT
+  sni: ord2.edge-command.click
+- name: trojan_80.173.231.254_12420
+  type: trojan
+  server: 80.173.231.254
+  port: 12420
+  password: wp9IsiY82uQhcmgNC1eoBM
+  sni: www.semanticstaplegun.click
+- name: trojan_82.26.155.199_10369
+  type: trojan
+  server: 82.26.155.199
+  port: 10369
+  password: n5ix4FcMQYENMQPL%2525252BYKbvyJ8nZ84%2525252BbNTsj
+  sni: fra4.chasem2026sud.com
+- name: trojan_82.26.155.20_10369
+  type: trojan
+  server: 82.26.155.20
+  port: 10369
+  password: n5ix4FcMQYENMQPL%2525252BYKbvyJ8nZ84%2525252BbNTsj
+  sni: fra35.chasem2026sud.com
+- name: trojan_82.26.155.3_10369
+  type: trojan
+  server: 82.26.155.3
+  port: 10369
+  password: n5ix4FcMQYENMQPL%2525252BYKbvyJ8nZ84%2525252BbNTsj
+  sni: fra34.chasem2026sud.com
+- name: trojan_82.26.155.105_10369
+  type: trojan
+  server: 82.26.155.105
+  port: 10369
+  password: n5ix4FcMQYENMQPL%2525252BYKbvyJ8nZ84%2525252BbNTsj
+  sni: fra32.chasem2026sud.com
+- name: trojan_80.173.230.196_26279
+  type: trojan
+  server: 80.173.230.196
+  port: 26279
+  password: a5inYFE%253DJGV89%252BhjxIqgDp1tcWBd6
+- name: trojan_78.159.131.12_28259
+  type: trojan
+  server: 78.159.131.12
+  port: 28259
+  password: MeaDiUmPlkWbZJ2BON8tz
+  sni: ads.x5.ru
+- name: trojan_152.53.200.98_8444
+  type: trojan
+  server: 152.53.200.98
+  port: 8444
+  password: trojan
+  sni: jflsjlaf.pages.dev
+- name: trojan_152.53.200.167_8444
+  type: trojan
+  server: 152.53.200.167
+  port: 8444
+  password: trojan
+  sni: jflsjlaf.pages.dev
+- name: trojan_152.53.45.251_8888
+  type: trojan
+  server: 152.53.45.251
+  port: 8888
+  password: trojan
+  sni: jflsjlaf.pages.dev
+- name: trojan_152.53.60.198_8444
+  type: trojan
+  server: 152.53.60.198
+  port: 8444
+  password: trojan
+  sni: jflsjlaf.pages.dev
+- name: trojan_blackshadow.dpdns.org_443
+  type: trojan
+  server: blackshadow.dpdns.org
+  port: 443
+  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  sni: blackshadow.dpdns.org
+- name: trojan_109.234.211.66_8443
+  type: trojan
+  server: 109.234.211.66
+  port: 8443
+  password: trojan
+  sni: store.timimi.dpdns.org
 proxy-groups:
 - name: Auto
   type: select
   proxies:
   - vmess_82.198.246.97_180
-  - vmess_v12.hdacd.com_30812
-  - vmess_cf.090227.xyz_443
   - vmess_t1.620720.xyz_8443
   - vmess_cg1c07.waimaojd.com_443
-  - vmess_cg1c01.waimaojd.com_443
-  - vmess_cg1c04.waimaojd.com_443
+  - vmess_sy4.620720.xyz_443
   - vmess_cg1c14.waimaojd.com_443
+  - vmess_82.198.246.250_180
   - vmess_82.198.246.97_180
-  - vmess_v12.hdacd.com_30812
-  - vmess_v10.hdacd.com_30807
-  - vmess_v36.hdacd.com_30836
-  - vmess_v9.hdacd.com_30809
-  - vmess_v8.hdacd.com_30808
-  - vmess_v24.hdacd.com_30824
-  - trojan_82.26.155.199_10369
-  - trojan_216.24.57.250_443
-  - trojan_n2.chateditimage.com_443
-  - trojan_104.238.162.6_13109
-  - trojan_152.53.200.98_8444
-  - trojan_109.234.211.66_2087
-  - trojan_109.234.211.66_8443
-  - trojan_216.238.102.254_26593
-  - trojan_mfyousheng.nl.eu.org_443
-  - trojan_v3.dabache.top_8443
-  - trojan_166.88.197.60_26650
-  - trojan_104.21.40.34_443
-  - trojan_188.114.96.3_443
-  - trojan_104.18.32.47_443
-  - trojan_172.67.180.92_443
-  - trojan_82.26.155.3_10369
-  - trojan_80.173.231.254_12420
-  - trojan_172.64.152.23_443
-  - trojan_www.calmlunch.com_443
-  - trojan_ct.090227.xyz_443
-  - trojan_185.18.250.245_443
-  - trojan_38.60.89.136_50000
-  - trojan_185.18.250.252_443
-  - trojan_ct.877774.xyz_443
-  - trojan_208.103.161.110_443
-  - trojan_v3.dabache.top_443
-  - trojan_irancell.buzzmuzzpanel.online_443
-  - trojan_104.18.8.83_443
   - ss_series-a2.samanehha.co_443
-  - ss_103.186.154.14_38388
-  - ss_103.186.154.172_38388
-  - ss_103.186.154.183_38388
-  - ss_103.186.154.185_38388
-  - ss_103.186.154.188_38388
-  - ss_103.186.154.190_38388
-  - ss_103.186.154.205_38388
-  - ss_103.186.154.214_38388
-  - ss_103.186.154.220_38388
-  - ss_103.186.154.227_38388
-  - ss_103.186.154.236_38388
-  - ss_103.186.154.254_38388
-  - ss_103.186.154.39_38388
-  - ss_103.186.154.49_38388
-  - ss_103.186.154.58_38388
-  - ss_103.186.155.121_38388
-  - ss_103.186.155.128_38388
-  - ss_103.186.155.13_38388
-  - ss_103.186.155.183_38388
-  - ss_103.186.155.204_38388
-  - ss_103.186.155.214_38388
-  - ss_103.186.155.22_38388
-  - ss_103.186.155.233_38388
-  - ss_103.186.155.39_38388
-  - ss_103.186.155.45_38388
-  - ss_103.186.155.154_38388
+  - ss_103.186.154.174_38388
+  - ss_103.186.154.175_38388
+  - ss_103.186.154.213_38388
+  - ss_103.186.154.223_38388
+  - ss_103.186.154.226_38388
+  - ss_103.186.154.229_38388
+  - ss_103.186.154.43_38388
+  - ss_103.186.154.51_38388
+  - ss_103.186.154.55_38388
+  - ss_103.186.155.113_38388
+  - ss_103.186.155.125_38388
+  - ss_103.186.155.143_38388
+  - ss_103.186.155.144_38388
+  - ss_103.186.155.147_38388
+  - ss_103.186.155.18_38388
+  - ss_103.186.155.211_38388
+  - ss_103.186.155.221_38388
+  - ss_103.186.155.240_38388
+  - ss_103.186.155.58_38388
+  - trojan_31.192.233.38_8443
+  - trojan_104.238.162.6_13109
+  - trojan_80.173.231.254_12420
+  - trojan_82.26.155.199_10369
+  - trojan_82.26.155.20_10369
+  - trojan_82.26.155.3_10369
+  - trojan_82.26.155.105_10369
+  - trojan_80.173.230.196_26279
+  - trojan_78.159.131.12_28259
+  - trojan_152.53.200.98_8444
+  - trojan_152.53.200.167_8444
+  - trojan_152.53.45.251_8888
+  - trojan_152.53.60.198_8444
+  - trojan_blackshadow.dpdns.org_443
+  - trojan_109.234.211.66_8443
 rules:
 - DOMAIN-SUFFIX,google.com,Auto
 - FINAL,Auto
