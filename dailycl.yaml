@@ -5,18 +5,6 @@ proxies:
   port: 28061
   cipher: chacha20-ietf-poly1305
   password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
-- name: ss_103.111.114.71_28061
-  type: ss
-  server: 103.111.114.71
-  port: 28061
-  cipher: chacha20-ietf-poly1305
-  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
-- name: ss_103.111.114.80_28061
-  type: ss
-  server: 103.111.114.80
-  port: 28061
-  cipher: chacha20-ietf-poly1305
-  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
 - name: vmess_v35.hdacd.com_30835
   type: vmess
   server: v35.hdacd.com
@@ -35,111 +23,15 @@ proxies:
   cipher: auto
   tls: false
   network: tcp
-- name: vmess_v36.hdacd.com_30836
+- name: vmess_v10.zgtfqs.click_30807
   type: vmess
-  server: v36.hdacd.com
-  port: 30836
+  server: v10.zgtfqs.click
+  port: 30807
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   alterId: 2
   cipher: auto
   tls: false
   network: tcp
-- name: vmess_jp01.scpnb.top_443
-  type: vmess
-  server: jp01.scpnb.top
-  port: 443
-  uuid: 537a036f-a4ad-4051-80c4-011a46c62bb0
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: jp01.scpnb.top
-  ws-path: /537a036f-a4ad-4051-80c4-011a46c62bb0-vm
-- name: vmess_zt-ai.cloud_443
-  type: vmess
-  server: zt-ai.cloud
-  port: 443
-  uuid: fce3d6a4-0f12-49b5-a810-84bcf0fde202
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: zt-ai.cloud
-  ws-path: /v2ray
-- name: vmess_104.17.77.77_8443
-  type: vmess
-  server: 104.17.77.77
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: v2ray1.dozapp.xyz
-  ws-path: /lMnsZUN4/
-- name: vmess_www.nextkyc.com_8443
-  type: vmess
-  server: www.nextkyc.com
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: v2ray1.dozapp.xyz
-  ws-path: /lMnsZUN4/
-- name: vmess_runheng.cloud_80
-  type: vmess
-  server: runheng.cloud
-  port: 80
-  uuid: 64bd7d62-7c00-4463-954b-3dd20320dded
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-headers:
-    Host: runheng.cloud
-  ws-path: /vmess-ws
-- name: vmess_yg6.ygkkk.dpdns.org_80
-  type: vmess
-  server: yg6.ygkkk.dpdns.org
-  port: 80
-  uuid: dc0672f1-1a09-42ec-8f46-0a7e68349e79
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-headers:
-    Host: remains-istanbul-hide-convention.trycloudflare.com
-  ws-path: /
-- name: vmess_v45.hdacd.com_30845
-  type: vmess
-  server: v45.hdacd.com
-  port: 30845
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-headers:
-    Host: v45.hdacd.com
-  ws-path: /
-- name: vmess_v33.hdacd.com_30833
-  type: vmess
-  server: v33.hdacd.com
-  port: 30833
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-headers:
-    Host: v33.hdacd.com
-  ws-path: /
 - name: vmess_renderer-stream-1-411.mirra.now_443
   type: vmess
   server: renderer-stream-1-411.mirra.now
@@ -164,27 +56,54 @@ proxies:
   ws-headers:
     Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
   ws-path: /
-- name: vmess_v8.hdacd.com_30808
+- name: vmess_4cdn.njkrpl.com_443
   type: vmess
-  server: v8.hdacd.com
-  port: 30808
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: tcp
-- name: vmess_irandesigner.com_8443
-  type: vmess
-  server: irandesigner.com
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  server: 4cdn.njkrpl.com
+  port: 443
+  uuid: a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8
   alterId: 0
   cipher: auto
   tls: true
   network: ws
   ws-headers:
-    Host: v2ray1.dozapp.xyz
-  ws-path: /lMnsZUN4/
+    Host: 4cdn.njkrpl.com
+  ws-path: /
+- name: vmess_8cdn.njkrpl.com_443
+  type: vmess
+  server: 8cdn.njkrpl.com
+  port: 443
+  uuid: a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: 8cdn.njkrpl.com
+  ws-path: /
+- name: vmess_104.21.88.22_443
+  type: vmess
+  server: 104.21.88.22
+  port: 443
+  uuid: 79e0df31-8ed5-4213-9fff-292a9fbeae7b
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: vpn.cyedu.xyz
+  ws-path: /ws
+- name: vmess_104.19.55.47_443
+  type: vmess
+  server: 104.19.55.47
+  port: 443
+  uuid: 79e0df31-8ed5-4213-9fff-292a9fbeae7b
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: vpn.cyedu.xyz
+  ws-path: /ws
 - name: vmess_172.67.161.144_8443
   type: vmess
   server: 172.67.161.144
@@ -197,9 +116,21 @@ proxies:
   ws-headers:
     Host: v2ray1.dozapp.xyz
   ws-path: /lMnsZUN4/
-- name: vmess_www.irandesigner.com_8443
+- name: vmess_jp01.scpnb.top_443
   type: vmess
-  server: www.irandesigner.com
+  server: jp01.scpnb.top
+  port: 443
+  uuid: 537a036f-a4ad-4051-80c4-011a46c62bb0
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: jp01.scpnb.top
+  ws-path: /537a036f-a4ad-4051-80c4-011a46c62bb0-vm
+- name: vmess_www.nextkyc.com_8443
+  type: vmess
+  server: www.nextkyc.com
   port: 8443
   uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   alterId: 0
@@ -209,101 +140,24 @@ proxies:
   ws-headers:
     Host: v2ray1.dozapp.xyz
   ws-path: /lMnsZUN4/
-- name: trojan_149.28.241.235_443
+- name: trojan_185.137.157.151_443
   type: trojan
-  server: 149.28.241.235
-  port: 443
-  password: lcGo9bOwOB8yC7oAAI.TC%2525253DrBFs6PfVgCeF
-  sni: 149.28.241.235
-- name: trojan_38.60.168.129_443
-  type: trojan
-  server: 38.60.168.129
-  port: 443
-  password: Lw_DP4%252BW.J5K33MD2Jy5zQVuT5n71%252B%253DBcD
-- name: trojan_38.54.64.247_443
-  type: trojan
-  server: 38.54.64.247
-  port: 443
-  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
-- name: trojan_185.137.157.156_443
-  type: trojan
-  server: 185.137.157.156
+  server: 185.137.157.151
   port: 443
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-- name: trojan_185.137.157.140_443
+  sni: 185.137.157.151
+- name: trojan_104.26.6.159_443
   type: trojan
-  server: 185.137.157.140
-  port: 443
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-- name: trojan_185.137.157.138_443
-  type: trojan
-  server: 185.137.157.138
-  port: 443
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-- name: trojan_185.137.157.142_443
-  type: trojan
-  server: 185.137.157.142
-  port: 443
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-- name: trojan_185.137.157.135_443
-  type: trojan
-  server: 185.137.157.135
-  port: 443
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-- name: trojan_185.137.157.128_443
-  type: trojan
-  server: 185.137.157.128
-  port: 443
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-- name: trojan_185.137.157.149_443
-  type: trojan
-  server: 185.137.157.149
-  port: 443
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-- name: trojan_185.137.157.145_443
-  type: trojan
-  server: 185.137.157.145
-  port: 443
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-- name: trojan_149.104.104.58_443
-  type: trojan
-  server: 149.104.104.58
-  port: 443
-  password: S.ibYdZshHTF-ne.M%2525252B.Fznp_-hyFFnCSix
-  sni: 149.104.104.58
-- name: trojan_106.75.160.27_39001
-  type: trojan
-  server: 106.75.160.27
-  port: 39001
-  password: ef73ca2cf3d9cd0f04c8f448da8125c6
-  sni: www.yrtok.com
-- name: trojan_172.64.152.23_443
-  type: trojan
-  server: 172.64.152.23
+  server: 104.26.6.159
   port: 443
   password: humanity
-  sni: www.calmlunch.com
-- name: trojan_146.75.116.190_80
+  sni: www.creationlong.org
+- name: trojan_91.221.190.80_443
   type: trojan
-  server: 146.75.116.190
-  port: 80
-  password: Mitivpn
-- name: trojan_151.101.242.172_80
-  type: trojan
-  server: 151.101.242.172
-  port: 80
-  password: Mitivpn
-- name: trojan_165.215.250.14_443
-  type: trojan
-  server: 165.215.250.14
+  server: 91.221.190.80
   port: 443
-  password: humanity
-  sni: www.calmlunch.com
-- name: trojan_www.ignitelimit.com_443
-  type: trojan
-  server: www.ignitelimit.com
-  port: 443
-  password: humanity
+  password: 8r%252525253C%252525255B9%2525252527l6hAO%25252525238ZQi
+  sni: Koma-YT.PAGeS.Dev
 - name: trojan_151.241.215.148_443
   type: trojan
   server: 151.241.215.148
@@ -316,57 +170,170 @@ proxies:
   port: 8443
   password: 8r%252525253C%252525255B9%2525252527l6hAO%25252525238ZQi
   sni: Koma-YT.PAGeS.Dev
-- name: trojan_91.221.190.80_443
-  type: trojan
-  server: 91.221.190.80
-  port: 443
-  password: 8r%252525253C%252525255B9%2525252527l6hAO%25252525238ZQi
-  sni: Koma-YT.PAGeS.Dev
-- name: trojan_167.82.101.251_443
-  type: trojan
-  server: 167.82.101.251
-  port: 443
-  password: Mitivpn
-  sni: ssl.fastly.com
-- name: trojan_151.101.56.6_443
-  type: trojan
-  server: 151.101.56.6
-  port: 443
-  password: Mitivpn
-  sni: ssl.fastly.com
-- name: trojan_104.17.131.88_443
-  type: trojan
-  server: 104.17.131.88
-  port: 443
-  password: humanity
-  sni: www.gossipglove.com
-- name: trojan_188.114.97.6_443
-  type: trojan
-  server: 188.114.97.6
-  port: 443
-  password: mitivpn
-  sni: 2.1.mitivpn.dee.srfsl.gleobal.fastl3y.n3et.mitivpn.site
 - name: trojan_103.45.245.208_2053
   type: trojan
   server: 103.45.245.208
   port: 2053
   password: rYuChHcwQZskq9E0zdoR
   sni: vpn5.rnmcnm.com
-- name: trojan_45.131.5.9_443
+- name: trojan_188.114.97.6_443
   type: trojan
-  server: 45.131.5.9
+  server: 188.114.97.6
   port: 443
-  password: '521314'
-  sni: tjplay.lxdxo.kdns.fr
+  password: mitivpn
+  sni: 2.1.mitivpn.dee.srfsl.gleobal.fastl3y.n3et.mitivpn.site
+- name: trojan_151.101.242.172_80
+  type: trojan
+  server: 151.101.242.172
+  port: 80
+  password: Mitivpn
+- name: trojan_146.75.116.190_80
+  type: trojan
+  server: 146.75.116.190
+  port: 80
+  password: Mitivpn
+- name: trojan_167.82.101.251_443
+  type: trojan
+  server: 167.82.101.251
+  port: 443
+  password: Mitivpn
+  sni: ssl.fastly.com
+- name: trojan_www.ignitelimit.com_443
+  type: trojan
+  server: www.ignitelimit.com
+  port: 443
+  password: humanity
 - name: trojan_104.25.108.147_8080
   type: trojan
   server: 104.25.108.147
   port: 8080
   password: 9c521e24-7326-acd3-acec-d0afac2b465d
   sni: red-cell-47f9.milaniomilan9.workers.dev
-- name: trojan_103.193.172.164_443
+- name: trojan_151.101.56.6_443
   type: trojan
-  server: 103.193.172.164
+  server: 151.101.56.6
+  port: 443
+  password: Mitivpn
+  sni: ssl.fastly.com
+- name: trojan_104.16.174.34_443
+  type: trojan
+  server: 104.16.174.34
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_165.215.250.14_443
+  type: trojan
+  server: 165.215.250.14
+  port: 443
+  password: humanity
+  sni: www.creationlong.org
+- name: trojan_198.177.57.9_443
+  type: trojan
+  server: 198.177.57.9
+  port: 443
+  password: '521314'
+- name: trojan_95.40.52.88_48738
+  type: trojan
+  server: 95.40.52.88
+  port: 48738
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  sni: www.nintendogames.net
+- name: trojan_54.238.245.134_24397
+  type: trojan
+  server: 54.238.245.134
+  port: 24397
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+- name: trojan_188.164.248.122_443
+  type: trojan
+  server: 188.164.248.122
+  port: 443
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+- name: trojan_185.137.157.135_443
+  type: trojan
+  server: 185.137.157.135
+  port: 443
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+- name: trojan_185.137.157.140_443
+  type: trojan
+  server: 185.137.157.140
+  port: 443
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+- name: trojan_185.137.157.142_443
+  type: trojan
+  server: 185.137.157.142
+  port: 443
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+- name: trojan_185.137.157.149_443
+  type: trojan
+  server: 185.137.157.149
+  port: 443
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+- name: trojan_104.19.229.21_443
+  type: trojan
+  server: 104.19.229.21
+  port: 443
+  password: humanity
+- name: trojan_104.19.230.21_443
+  type: trojan
+  server: 104.19.230.21
+  port: 443
+  password: humanity
+- name: trojan_38.54.64.247_443
+  type: trojan
+  server: 38.54.64.247
+  port: 443
+  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
+- name: trojan_jpbgp.netvigor.cc_19128
+  type: trojan
+  server: jpbgp.netvigor.cc
+  port: 19128
+  password: OccIqeORGQwiNkwS
+  sni: yazhou10.dynu.net
+- name: trojan_ip4.vpean2.qzz.io_443
+  type: trojan
+  server: ip4.vpean2.qzz.io
+  port: 443
+  password: rYuChHcwQZskq9E0zdoR
+- name: trojan_149.104.104.58_443
+  type: trojan
+  server: 149.104.104.58
+  port: 443
+  password: S.ibYdZshHTF-ne.M%2525252B.Fznp_-hyFFnCSix
+  sni: 149.104.104.58
+- name: trojan_188.114.96.3_443
+  type: trojan
+  server: 188.114.96.3
+  port: 443
+  password: humanity
+- name: trojan_212.183.88.136_443
+  type: trojan
+  server: 212.183.88.136
+  port: 443
+  password: humanity
+- name: trojan_104.16.174.117_443
+  type: trojan
+  server: 104.16.174.117
+  port: 443
+  password: humanity
+- name: trojan_104.16.71.213_443
+  type: trojan
+  server: 104.16.71.213
+  port: 443
+  password: humanity
+- name: trojan_172.66.44.211_443
+  type: trojan
+  server: 172.66.44.211
+  port: 443
+  password: humanity
+- name: trojan_blackshadow.dpdns.org_443
+  type: trojan
+  server: blackshadow.dpdns.org
+  port: 443
+  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+- name: trojan_122.10.119.252_443
+  type: trojan
+  server: 122.10.119.252
   port: 443
   password: '521314'
 - name: trojan_126.220.82.161_443
@@ -374,46 +341,11 @@ proxies:
   server: 126.220.82.161
   port: 443
   password: '521314'
-- name: trojan_129.212.232.171_443
-  type: trojan
-  server: 129.212.232.171
-  port: 443
-  password: '521314'
-- name: trojan_129.212.239.178_443
-  type: trojan
-  server: 129.212.239.178
-  port: 443
-  password: '521314'
-- name: trojan_138.2.5.136_443
-  type: trojan
-  server: 138.2.5.136
-  port: 443
-  password: '521314'
 - name: trojan_220.135.92.105_2087
   type: trojan
   server: 220.135.92.105
   port: 2087
   password: '521314'
-- name: trojan_5.10.215.9_443
-  type: trojan
-  server: 5.10.215.9
-  port: 443
-  password: '521314'
-- name: trojan_185.137.157.151_443
-  type: trojan
-  server: 185.137.157.151
-  port: 443
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-- name: trojan_104.16.174.117_443
-  type: trojan
-  server: 104.16.174.117
-  port: 443
-  password: humanity
-- name: trojan_104.16.174.121_443
-  type: trojan
-  server: 104.16.174.121
-  port: 443
-  password: humanity
 - name: trojan_104.16.174.36_443
   type: trojan
   server: 104.16.174.36
@@ -424,9 +356,9 @@ proxies:
   server: 104.17.121.71
   port: 443
   password: humanity
-- name: trojan_104.17.177.143_443
+- name: trojan_104.17.131.88_443
   type: trojan
-  server: 104.17.177.143
+  server: 104.17.131.88
   port: 443
   password: humanity
 - name: trojan_104.18.12.149_443
@@ -444,29 +376,9 @@ proxies:
   server: 104.18.152.143
   port: 443
   password: humanity
-- name: trojan_104.18.152.219_443
-  type: trojan
-  server: 104.18.152.219
-  port: 443
-  password: humanity
 - name: trojan_104.18.152.225_443
   type: trojan
   server: 104.18.152.225
-  port: 443
-  password: humanity
-- name: trojan_104.18.152.229_443
-  type: trojan
-  server: 104.18.152.229
-  port: 443
-  password: humanity
-- name: trojan_104.18.152.233_443
-  type: trojan
-  server: 104.18.152.233
-  port: 443
-  password: humanity
-- name: trojan_104.18.152.246_443
-  type: trojan
-  server: 104.18.152.246
   port: 443
   password: humanity
 - name: trojan_104.19.208.184_443
@@ -474,59 +386,14 @@ proxies:
   server: 104.19.208.184
   port: 443
   password: humanity
-- name: trojan_104.19.229.21_443
-  type: trojan
-  server: 104.19.229.21
-  port: 443
-  password: humanity
-- name: trojan_104.19.64.105_443
-  type: trojan
-  server: 104.19.64.105
-  port: 443
-  password: humanity
-- name: trojan_104.20.42.250_443
-  type: trojan
-  server: 104.20.42.250
-  port: 443
-  password: humanity
-- name: trojan_104.20.6.134_443
-  type: trojan
-  server: 104.20.6.134
-  port: 443
-  password: humanity
 - name: trojan_141.101.90.101_443
   type: trojan
   server: 141.101.90.101
   port: 443
   password: humanity
-- name: trojan_162.159.17.189_443
+- name: trojan_185.18.250.245_443
   type: trojan
-  server: 162.159.17.189
-  port: 443
-  password: humanity
-- name: trojan_172.64.146.198_443
-  type: trojan
-  server: 172.64.146.198
-  port: 443
-  password: humanity
-- name: trojan_172.64.155.209_443
-  type: trojan
-  server: 172.64.155.209
-  port: 443
-  password: humanity
-- name: trojan_172.66.44.211_443
-  type: trojan
-  server: 172.66.44.211
-  port: 443
-  password: humanity
-- name: trojan_172.66.47.69_443
-  type: trojan
-  server: 172.66.47.69
-  port: 443
-  password: humanity
-- name: trojan_188.114.96.3_443
-  type: trojan
-  server: 188.114.96.3
+  server: 185.18.250.245
   port: 443
   password: humanity
 - name: trojan_188.114.98.0_443
@@ -534,29 +401,14 @@ proxies:
   server: 188.114.98.0
   port: 443
   password: humanity
-- name: trojan_199.181.197.143_443
-  type: trojan
-  server: 199.181.197.143
-  port: 443
-  password: humanity
-- name: trojan_212.183.88.136_443
-  type: trojan
-  server: 212.183.88.136
-  port: 443
-  password: humanity
-- name: trojan_45.130.125.0_443
-  type: trojan
-  server: 45.130.125.0
-  port: 443
-  password: humanity
 - name: trojan_45.130.125.126_443
   type: trojan
   server: 45.130.125.126
   port: 443
   password: humanity
-- name: trojan_8.6.112.6_443
+- name: trojan_join-telegram-channel.tirexnet.kdns.fr_443
   type: trojan
-  server: 8.6.112.6
+  server: join-telegram-channel.tirexnet.kdns.fr
   port: 443
   password: humanity
 - name: trojan_www.creationlong.org_443
@@ -564,219 +416,75 @@ proxies:
   server: www.creationlong.org
   port: 443
   password: humanity
-- name: trojan_104.19.2.175_443
-  type: trojan
-  server: 104.19.2.175
-  port: 443
-  password: humanity
-- name: trojan_45.32.195.168_443
-  type: trojan
-  server: 45.32.195.168
-  port: 443
-  password: lcGo9bOwOB8yC7oAAI.TC%2525253DrBFs6PfVgCeF
-  sni: 45.32.195.168
-- name: trojan_172.64.147.24_443
-  type: trojan
-  server: 172.64.147.24
-  port: 443
-  password: humanity
-- name: trojan_198.202.211.1_443
-  type: trojan
-  server: 198.202.211.1
-  port: 443
-  password: humanity
-- name: trojan_45.130.125.32_443
-  type: trojan
-  server: 45.130.125.32
-  port: 443
-  password: humanity
-- name: trojan_104.18.152.187_443
-  type: trojan
-  server: 104.18.152.187
-  port: 443
-  password: humanity
-- name: trojan_104.19.230.21_443
-  type: trojan
-  server: 104.19.230.21
-  port: 443
-  password: humanity
-- name: trojan_104.21.40.34_443
-  type: trojan
-  server: 104.21.40.34
-  port: 443
-  password: humanity
-- name: trojan_visa.com_443
-  type: trojan
-  server: visa.com
-  port: 443
-  password: MiTiVPN
-- name: trojan_104.17.121.43_443
-  type: trojan
-  server: 104.17.121.43
-  port: 443
-  password: humanity
-- name: trojan_199.181.197.228_443
-  type: trojan
-  server: 199.181.197.228
-  port: 443
-  password: humanity
-- name: trojan_185.18.250.252_443
-  type: trojan
-  server: 185.18.250.252
-  port: 443
-  password: humanity
-- name: trojan_199.181.197.176_443
-  type: trojan
-  server: 199.181.197.176
-  port: 443
-  password: humanity
-- name: trojan_104.17.121.9_443
-  type: trojan
-  server: 104.17.121.9
-  port: 443
-  password: humanity
-- name: trojan_199.181.197.111_443
-  type: trojan
-  server: 199.181.197.111
-  port: 443
-  password: humanity
-- name: trojan_104.16.71.48_443
-  type: trojan
-  server: 104.16.71.48
-  port: 443
-  password: MiTiVPN
-- name: trojan_116.251.216.23_8443
-  type: trojan
-  server: 116.251.216.23
-  port: 8443
-  password: '521314'
-- name: trojan_138.3.212.160_8443
-  type: trojan
-  server: 138.3.212.160
-  port: 8443
-  password: '521314'
-- name: trojan_208.86.168.168_443
-  type: trojan
-  server: 208.86.168.168
-  port: 443
-  password: MiTiVPN
-- name: trojan_ip4.vpean2.qzz.io_443
-  type: trojan
-  server: ip4.vpean2.qzz.io
-  port: 443
-  password: rYuChHcwQZskq9E0zdoR
 proxy-groups:
 - name: Auto
   type: select
   proxies:
   - ss_103.111.114.82_28061
-  - ss_103.111.114.71_28061
-  - ss_103.111.114.80_28061
   - vmess_v35.hdacd.com_30835
   - vmess_v10.hdacd.com_30807
-  - vmess_v36.hdacd.com_30836
-  - vmess_jp01.scpnb.top_443
-  - vmess_zt-ai.cloud_443
-  - vmess_104.17.77.77_8443
-  - vmess_www.nextkyc.com_8443
-  - vmess_runheng.cloud_80
-  - vmess_yg6.ygkkk.dpdns.org_80
-  - vmess_v45.hdacd.com_30845
-  - vmess_v33.hdacd.com_30833
+  - vmess_v10.zgtfqs.click_30807
   - vmess_renderer-stream-1-411.mirra.now_443
   - vmess_69.84.182.49_80
-  - vmess_v8.hdacd.com_30808
-  - vmess_irandesigner.com_8443
+  - vmess_4cdn.njkrpl.com_443
+  - vmess_8cdn.njkrpl.com_443
+  - vmess_104.21.88.22_443
+  - vmess_104.19.55.47_443
   - vmess_172.67.161.144_8443
-  - vmess_www.irandesigner.com_8443
-  - trojan_149.28.241.235_443
-  - trojan_38.60.168.129_443
-  - trojan_38.54.64.247_443
-  - trojan_185.137.157.156_443
-  - trojan_185.137.157.140_443
-  - trojan_185.137.157.138_443
-  - trojan_185.137.157.142_443
-  - trojan_185.137.157.135_443
-  - trojan_185.137.157.128_443
-  - trojan_185.137.157.149_443
-  - trojan_185.137.157.145_443
-  - trojan_149.104.104.58_443
-  - trojan_106.75.160.27_39001
-  - trojan_172.64.152.23_443
-  - trojan_146.75.116.190_80
-  - trojan_151.101.242.172_80
-  - trojan_165.215.250.14_443
-  - trojan_www.ignitelimit.com_443
+  - vmess_jp01.scpnb.top_443
+  - vmess_www.nextkyc.com_8443
+  - trojan_185.137.157.151_443
+  - trojan_104.26.6.159_443
+  - trojan_91.221.190.80_443
   - trojan_151.241.215.148_443
   - trojan_152.53.200.89_8443
-  - trojan_91.221.190.80_443
-  - trojan_167.82.101.251_443
-  - trojan_151.101.56.6_443
-  - trojan_104.17.131.88_443
-  - trojan_188.114.97.6_443
   - trojan_103.45.245.208_2053
-  - trojan_45.131.5.9_443
+  - trojan_188.114.97.6_443
+  - trojan_151.101.242.172_80
+  - trojan_146.75.116.190_80
+  - trojan_167.82.101.251_443
+  - trojan_www.ignitelimit.com_443
   - trojan_104.25.108.147_8080
-  - trojan_103.193.172.164_443
-  - trojan_126.220.82.161_443
-  - trojan_129.212.232.171_443
-  - trojan_129.212.239.178_443
-  - trojan_138.2.5.136_443
-  - trojan_220.135.92.105_2087
-  - trojan_5.10.215.9_443
-  - trojan_185.137.157.151_443
+  - trojan_151.101.56.6_443
+  - trojan_104.16.174.34_443
+  - trojan_165.215.250.14_443
+  - trojan_198.177.57.9_443
+  - trojan_95.40.52.88_48738
+  - trojan_54.238.245.134_24397
+  - trojan_188.164.248.122_443
+  - trojan_185.137.157.135_443
+  - trojan_185.137.157.140_443
+  - trojan_185.137.157.142_443
+  - trojan_185.137.157.149_443
+  - trojan_104.19.229.21_443
+  - trojan_104.19.230.21_443
+  - trojan_38.54.64.247_443
+  - trojan_jpbgp.netvigor.cc_19128
+  - trojan_ip4.vpean2.qzz.io_443
+  - trojan_149.104.104.58_443
+  - trojan_188.114.96.3_443
+  - trojan_212.183.88.136_443
   - trojan_104.16.174.117_443
-  - trojan_104.16.174.121_443
+  - trojan_104.16.71.213_443
+  - trojan_172.66.44.211_443
+  - trojan_blackshadow.dpdns.org_443
+  - trojan_122.10.119.252_443
+  - trojan_126.220.82.161_443
+  - trojan_220.135.92.105_2087
   - trojan_104.16.174.36_443
   - trojan_104.17.121.71_443
-  - trojan_104.17.177.143_443
+  - trojan_104.17.131.88_443
   - trojan_104.18.12.149_443
   - trojan_104.18.139.67_443
   - trojan_104.18.152.143_443
-  - trojan_104.18.152.219_443
   - trojan_104.18.152.225_443
-  - trojan_104.18.152.229_443
-  - trojan_104.18.152.233_443
-  - trojan_104.18.152.246_443
   - trojan_104.19.208.184_443
-  - trojan_104.19.229.21_443
-  - trojan_104.19.64.105_443
-  - trojan_104.20.42.250_443
-  - trojan_104.20.6.134_443
   - trojan_141.101.90.101_443
-  - trojan_162.159.17.189_443
-  - trojan_172.64.146.198_443
-  - trojan_172.64.155.209_443
-  - trojan_172.66.44.211_443
-  - trojan_172.66.47.69_443
-  - trojan_188.114.96.3_443
+  - trojan_185.18.250.245_443
   - trojan_188.114.98.0_443
-  - trojan_199.181.197.143_443
-  - trojan_212.183.88.136_443
-  - trojan_45.130.125.0_443
   - trojan_45.130.125.126_443
-  - trojan_8.6.112.6_443
+  - trojan_join-telegram-channel.tirexnet.kdns.fr_443
   - trojan_www.creationlong.org_443
-  - trojan_104.19.2.175_443
-  - trojan_45.32.195.168_443
-  - trojan_172.64.147.24_443
-  - trojan_198.202.211.1_443
-  - trojan_45.130.125.32_443
-  - trojan_104.18.152.187_443
-  - trojan_104.19.230.21_443
-  - trojan_104.21.40.34_443
-  - trojan_visa.com_443
-  - trojan_104.17.121.43_443
-  - trojan_199.181.197.228_443
-  - trojan_185.18.250.252_443
-  - trojan_199.181.197.176_443
-  - trojan_104.17.121.9_443
-  - trojan_199.181.197.111_443
-  - trojan_104.16.71.48_443
-  - trojan_116.251.216.23_8443
-  - trojan_138.3.212.160_8443
-  - trojan_208.86.168.168_443
-  - trojan_ip4.vpean2.qzz.io_443
 rules:
 - DOMAIN-SUFFIX,google.com,Auto
 - FINAL,Auto
