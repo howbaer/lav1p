@@ -1,62 +1,47 @@
 proxies:
-- name: trojan_13.231.232.184_443
+- name: ss_149.22.87.241_443
+  type: ss
+  server: 149.22.87.241
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: trojan_43.207.118.231_443
   type: trojan
-  server: 13.231.232.184
+  server: 43.207.118.231
+  port: 443
+  password: AE62539071
+- name: trojan_3.112.223.141_443
+  type: trojan
+  server: 3.112.223.141
   port: 443
   password: ND91608427
-  tls: true
-- name: trojan_happy-mutt.rooster465.autos_443
-  type: trojan
-  server: happy-mutt.rooster465.autos
-  port: 443
-  password: ND91608427
-- name: trojan_nearby-egret.rooster465.autos_443
-  type: trojan
-  server: nearby-egret.rooster465.autos
-  port: 443
-  password: ND91608427
-  tls: true
-- name: trojan_52.196.121.8_443
-  type: trojan
-  server: 52.196.121.8
-  port: 443
-  password: ND91608427
-  tls: true
 - name: trojan_18.181.164.216_443
   type: trojan
   server: 18.181.164.216
   port: 443
   password: ND91608427
   tls: true
-- name: trojan_13.192.168.51_443
+- name: trojan_18.183.182.132_443
   type: trojan
-  server: 13.192.168.51
+  server: 18.183.182.132
+  port: 443
+  password: AE62539071
+- name: trojan_52.192.243.203_443
+  type: trojan
+  server: 52.192.243.203
+  port: 443
+  password: AE62539071
+- name: trojan_3.113.1.131_443
+  type: trojan
+  server: 3.113.1.131
   port: 443
   password: ND91608427
   tls: true
-- name: trojan_161.34.39.108_443
+- name: trojan_clear-killdeer.rooster465.autos_443
   type: trojan
-  server: 161.34.39.108
+  server: clear-killdeer.rooster465.autos
   port: 443
-  password: tsuchiya
-  tls: true
-- name: trojan_52.194.230.221_443
-  type: trojan
-  server: 52.194.230.221
-  port: 443
-  password: ND91608427
-  tls: true
-- name: trojan_57.180.13.78_443
-  type: trojan
-  server: 57.180.13.78
-  port: 443
-  password: ND91608427
-  tls: true
-- name: trojan_18.179.31.199_443
-  type: trojan
-  server: 18.179.31.199
-  port: 443
-  password: ND91608427
+  password: AE62539071
   tls: true
 - name: trojan_18.178.132.111_443
   type: trojan
@@ -64,38 +49,50 @@ proxies:
   port: 443
   password: ND91608427
   tls: true
-- name: trojan_real-werewolf.rooster465.autos_443
+- name: trojan_rich-gelding.rooster465.autos_443
   type: trojan
-  server: real-werewolf.rooster465.autos
+  server: rich-gelding.rooster465.autos
+  port: 443
+  password: AE62539071
+  tls: true
+- name: trojan_54.249.32.173_443
+  type: trojan
+  server: 54.249.32.173
+  port: 443
+  password: AE62539071
+  tls: true
+- name: trojan_sweeping-parakeet.rooster465.autos_443
+  type: trojan
+  server: sweeping-parakeet.rooster465.autos
+  port: 443
+  password: AE62539071
+  tls: true
+- name: trojan_57.180.13.78_443
+  type: trojan
+  server: 57.180.13.78
   port: 443
   password: ND91608427
   tls: true
-- name: trojan_stunning-mite.rooster465.autos_443
+- name: trojan_premium-weevil.rooster465.autos_443
   type: trojan
-  server: stunning-mite.rooster465.autos
+  server: premium-weevil.rooster465.autos
   port: 443
-  password: ND91608427
-  tls: true
-- name: trojan_hkdcrtc-e.catcat321.com_20041
+  password: AE62539071
+- name: trojan_104.16.174.117_443
   type: trojan
-  server: hkdcrtc-e.catcat321.com
-  port: 20041
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  sni: de.catxstar.com
-- name: trojan_149.104.104.58_443
-  type: trojan
-  server: 149.104.104.58
+  server: 104.16.174.117
   port: 443
-  password: S.ibYdZshHTF-ne.M%252B.Fznp_-hyFFnCSix
-- name: trojan_relaxing-bluebird.rooster465.autos_443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_198.41.223.96_443
   type: trojan
-  server: relaxing-bluebird.rooster465.autos
+  server: 198.41.223.96
   port: 443
-  password: ND91608427
-  sni: relaxing-bluebird.rooster465.autos
-- name: trojan_www.speedtest.org_443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.16.174.44_443
   type: trojan
-  server: www.speedtest.org
+  server: 104.16.174.44
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -105,15 +102,32 @@ proxies:
   port: 443
   password: humanity
   sni: www.ignitelimit.com
-- name: trojan_104.16.174.36_443
+- name: trojan_104.18.152.144_443
   type: trojan
-  server: 104.16.174.36
+  server: 104.18.152.144
   port: 443
   password: humanity
   sni: www.ignitelimit.com
-- name: trojan_104.16.174.117_443
+- name: trojan_104.18.152.77_443
   type: trojan
-  server: 104.16.174.117
+  server: 104.18.152.77
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_www.ignitelimit.com_443
+  type: trojan
+  server: www.ignitelimit.com
+  port: 443
+  password: humanity
+- name: trojan_165.215.250.14_443
+  type: trojan
+  server: 165.215.250.14
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.16.174.34_443
+  type: trojan
+  server: 104.16.174.34
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -123,15 +137,15 @@ proxies:
   port: 443
   password: humanity
   sni: www.ignitelimit.com
-- name: trojan_104.18.152.73_443
+- name: trojan_104.16.174.36_443
   type: trojan
-  server: 104.18.152.73
+  server: 104.16.174.36
   port: 443
   password: humanity
   sni: www.ignitelimit.com
-- name: trojan_104.16.174.6_443
+- name: trojan_104.20.6.134_443
   type: trojan
-  server: 104.16.174.6
+  server: 104.20.6.134
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -141,9 +155,57 @@ proxies:
   port: 443
   password: humanity
   sni: www.ignitelimit.com
-- name: trojan_104.18.12.149_443
+- name: trojan_ip.myip2.qzz.io_443
   type: trojan
-  server: 104.18.12.149
+  server: ip.myip2.qzz.io
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.16.174.6_443
+  type: trojan
+  server: 104.16.174.6
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.18.152.229_443
+  type: trojan
+  server: 104.18.152.229
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.16.174.22_443
+  type: trojan
+  server: 104.16.174.22
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.18.152.219_443
+  type: trojan
+  server: 104.18.152.219
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.26.15.137_443
+  type: trojan
+  server: 104.26.15.137
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.26.14.137_443
+  type: trojan
+  server: 104.26.14.137
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_www.speedtest.org_443
+  type: trojan
+  server: www.speedtest.org
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.18.152.108_443
+  type: trojan
+  server: 104.18.152.108
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -153,67 +215,340 @@ proxies:
   port: 443
   password: humanity
   sni: www.ignitelimit.com
+- name: trojan_104.16.73.213_443
+  type: trojan
+  server: 104.16.73.213
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.18.152.208_443
+  type: trojan
+  server: 104.18.152.208
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.18.152.73_443
+  type: trojan
+  server: 104.18.152.73
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.17.111.4_443
+  type: trojan
+  server: 104.17.111.4
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.18.152.50_443
+  type: trojan
+  server: 104.18.152.50
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.18.22.63_443
+  type: trojan
+  server: 104.18.22.63
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_2.144.21.150_2000
+  type: trojan
+  server: 2.144.21.150
+  port: 2000
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.18.152.152_443
+  type: trojan
+  server: 104.18.152.152
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.18.152.133_443
+  type: trojan
+  server: 104.18.152.133
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.18.152.204_443
+  type: trojan
+  server: 104.18.152.204
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_86.38.214.205_443
+  type: trojan
+  server: 86.38.214.205
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.18.152.225_443
+  type: trojan
+  server: 104.18.152.225
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_blackshadow.dpdns.org_443
+  type: trojan
+  server: blackshadow.dpdns.org
+  port: 443
+  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  sni: blackshadow.dpdns.org
+- name: trojan_104.17.111.8_443
+  type: trojan
+  server: 104.17.111.8
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_172.67.221.242_443
+  type: trojan
+  server: 172.67.221.242
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.16.174.14_443
+  type: trojan
+  server: 104.16.174.14
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.16.174.12_443
+  type: trojan
+  server: 104.16.174.12
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.16.174.72_443
+  type: trojan
+  server: 104.16.174.72
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.18.12.149_443
+  type: trojan
+  server: 104.18.12.149
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.18.152.175_443
+  type: trojan
+  server: 104.18.152.175
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.18.152.103_443
+  type: trojan
+  server: 104.18.152.103
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.18.152.187_443
+  type: trojan
+  server: 104.18.152.187
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.18.152.210_443
+  type: trojan
+  server: 104.18.152.210
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.18.152.159_443
+  type: trojan
+  server: 104.18.152.159
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_172.67.149.60_443
+  type: trojan
+  server: 172.67.149.60
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.18.152.207_443
+  type: trojan
+  server: 104.18.152.207
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.16.7.70_443
+  type: trojan
+  server: 104.16.7.70
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_8.6.112.0_443
+  type: trojan
+  server: 8.6.112.0
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_8.6.112.6_443
+  type: trojan
+  server: 8.6.112.6
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_216.24.57.7_443
+  type: trojan
+  server: 216.24.57.7
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_render.com_443
+  type: trojan
+  server: render.com
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_216.24.57.1_443
+  type: trojan
+  server: 216.24.57.1
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_141.101.90.101_443
+  type: trojan
+  server: 141.101.90.101
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.18.152.155_443
+  type: trojan
+  server: 104.18.152.155
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_130.250.137.171_443
+  type: trojan
+  server: 130.250.137.171
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.16.174.37_443
+  type: trojan
+  server: 104.16.174.37
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.16.174.121_443
+  type: trojan
+  server: 104.16.174.121
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.18.23.63_443
+  type: trojan
+  server: 104.18.23.63
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.16.174.46_443
+  type: trojan
+  server: 104.16.174.46
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
 - name: trojan_104.18.152.113_443
   type: trojan
   server: 104.18.152.113
   port: 443
   password: humanity
   sni: www.ignitelimit.com
-- name: trojan_oplosgru-c.catcat321.com_20088
+- name: trojan_select-chipmunk.rooster465.autos_443
   type: trojan
-  server: oplosgru-c.catcat321.com
-  port: 20088
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  sni: hk.catxstar.com
-- name: trojan_104.18.152.108_443
-  type: trojan
-  server: 104.18.152.108
+  server: select-chipmunk.rooster465.autos
   port: 443
-  password: humanity
-  sni: www.ignitelimit.com
+  password: FH72359861
+  sni: select-chipmunk.rooster465.autos
+- name: trojan_musical-terrier.rooster465.autos_443
+  type: trojan
+  server: musical-terrier.rooster465.autos
+  port: 443
+  password: FH72359861
+  sni: musical-terrier.rooster465.autos
+- name: trojan_assuring-skink.rooster465.autos_443
+  type: trojan
+  server: assuring-skink.rooster465.autos
+  port: 443
+  password: FH72359861
+  sni: assuring-skink.rooster465.autos
+- name: trojan_national-dingo.rooster465.autos_443
+  type: trojan
+  server: national-dingo.rooster465.autos
+  port: 443
+  password: FH72359861
+  sni: national-dingo.rooster465.autos
+- name: trojan_square-guinea.rooster465.autos_443
+  type: trojan
+  server: square-guinea.rooster465.autos
+  port: 443
+  password: FH72359861
+  sni: square-guinea.rooster465.autos
+- name: trojan_leading-eel.rooster465.autos_443
+  type: trojan
+  server: leading-eel.rooster465.autos
+  port: 443
+  password: FH72359861
+  sni: leading-eel.rooster465.autos
+- name: trojan_welcome-monitor.rooster465.autos_443
+  type: trojan
+  server: welcome-monitor.rooster465.autos
+  port: 443
+  password: FH72359861
+  sni: welcome-monitor.rooster465.autos
+- name: trojan_proven-stud.rooster465.autos_443
+  type: trojan
+  server: proven-stud.rooster465.autos
+  port: 443
+  password: FH72359861
+  sni: proven-stud.rooster465.autos
+- name: trojan_master-possum.rooster465.autos_443
+  type: trojan
+  server: master-possum.rooster465.autos
+  port: 443
+  password: FH72359861
+  sni: master-possum.rooster465.autos
 - name: trojan_104.18.152.246_443
   type: trojan
   server: 104.18.152.246
   port: 443
   password: humanity
   sni: www.ignitelimit.com
-- name: trojan_oplosgru-c.catcat321.com_20004
+- name: trojan_104.21.46.3_443
   type: trojan
-  server: oplosgru-c.catcat321.com
-  port: 20004
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  sni: hk.catxstar.com
-- name: trojan_172.66.173.172_443
-  type: trojan
-  server: 172.66.173.172
-  port: 443
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  sni: yks-dd9.pages.dev
-- name: trojan_104.21.84.3_443
-  type: trojan
-  server: 104.21.84.3
-  port: 443
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  sni: yks-dd9.pages.dev
-- name: trojan_104.18.152.219_443
-  type: trojan
-  server: 104.18.152.219
+  server: 104.21.46.3
   port: 443
   password: humanity
   sni: www.ignitelimit.com
-- name: vmess_v9.hdacd.com_30809
+- name: trojan_104.17.111.3_443
+  type: trojan
+  server: 104.17.111.3
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_188.114.97.7_443
+  type: trojan
+  server: 188.114.97.7
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.18.152.179_443
+  type: trojan
+  server: 104.18.152.179
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_2c.fast9988.com_50887
+  type: trojan
+  server: 2c.fast9988.com
+  port: 50887
+  password: 6ec301428255a78a1d826988d86cc87e
+  sni: www.nintendogames.net
+- name: vmess_v35.hdacd.com_30835
   type: vmess
-  server: v9.hdacd.com
-  port: 30809
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: tcp
-- name: vmess_v33.hdacd.com_30833
-  type: vmess
-  server: v33.hdacd.com
-  port: 30833
+  server: v35.hdacd.com
+  port: 30835
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   alterId: 2
   cipher: auto
@@ -228,36 +563,42 @@ proxies:
   cipher: auto
   tls: false
   network: tcp
-- name: vmess_v35.hdacd.com_30835
+- name: vmess_v36.hdacd.com_30836
   type: vmess
-  server: v35.hdacd.com
-  port: 30835
+  server: v36.hdacd.com
+  port: 30836
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   alterId: 2
   cipher: auto
   tls: false
   network: tcp
-- name: vmess_v6.hdacd.com_30806
+- name: vmess_rush-6it6b.teeopp.quest_443
   type: vmess
-  server: v6.hdacd.com
-  port: 30806
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: tcp
-- name: vmess_cf.levikogjgfdd.ir_2053
-  type: vmess
-  server: cf.levikogjgfdd.ir
-  port: 2053
-  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
+  server: rush-6it6b.teeopp.quest
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
   cipher: auto
   tls: true
   network: ws
-  ws-headers:
-    Host: deapp.jisuyun.top
-  ws-path: /
+- name: vmess_v45.hdacd.com_30845
+  type: vmess
+  server: v45.hdacd.com
+  port: 30845
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: tcp
+- name: vmess_v24.hdacd.com_30824
+  type: vmess
+  server: v24.hdacd.com
+  port: 30824
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: tcp
 - name: vmess_185.246.152.159_443
   type: vmess
   server: 185.246.152.159
@@ -270,51 +611,187 @@ proxies:
   ws-headers:
     Host: apjhdggyx.com
   ws-path: /5f72f180-b21b-4b7a-8484-240759096785
+- name: vmess_cindy52.ceoiii.com_36803
+  type: vmess
+  server: cindy52.ceoiii.com
+  port: 36803
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-headers:
+    Host: ajax.microsoft.com
+  ws-path: /hls/cctv5phd.m3u8
+- name: vmess_cindy50.ceoiii.com_36801
+  type: vmess
+  server: cindy50.ceoiii.com
+  port: 36801
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-headers:
+    Host: ajax.microsoft.com
+  ws-path: /hls/cctv5phd.m3u8
+- name: vmess_94.182.88.61_2078
+  type: vmess
+  server: 94.182.88.61
+  port: 2078
+  uuid: 8c207682-e007-4a0d-88a3-68b8638b3d10
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-headers:
+    Host: 94.182.88.61
+  ws-path: /
+- name: vmess_www.true.th_80
+  type: vmess
+  server: www.true.th
+  port: 80
+  uuid: a150d554-e962-4632-829f-ee583ada3f95
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-headers:
+    Host: d7pu5mzr9c4b0.cloudfront.net
+  ws-path: /htun
+- name: vmess_v9.hdacd.com_30809
+  type: vmess
+  server: v9.hdacd.com
+  port: 30809
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-headers:
+    Host: v9.hdacd.com
+  ws-path: /
+- name: vmess_v29.hdacd.com_30829
+  type: vmess
+  server: v29.hdacd.com
+  port: 30829
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: tcp
+  ws-headers:
+    Host: v29.hdacd.com
+  ws-path: /
 proxy-groups:
 - name: Auto
   type: select
   proxies:
-  - trojan_13.231.232.184_443
-  - trojan_happy-mutt.rooster465.autos_443
-  - trojan_nearby-egret.rooster465.autos_443
-  - trojan_52.196.121.8_443
+  - ss_149.22.87.241_443
+  - trojan_43.207.118.231_443
+  - trojan_3.112.223.141_443
   - trojan_18.181.164.216_443
-  - trojan_13.192.168.51_443
-  - trojan_161.34.39.108_443
-  - trojan_52.194.230.221_443
-  - trojan_57.180.13.78_443
-  - trojan_18.179.31.199_443
+  - trojan_18.183.182.132_443
+  - trojan_52.192.243.203_443
+  - trojan_3.113.1.131_443
+  - trojan_clear-killdeer.rooster465.autos_443
   - trojan_18.178.132.111_443
-  - trojan_real-werewolf.rooster465.autos_443
-  - trojan_stunning-mite.rooster465.autos_443
-  - trojan_hkdcrtc-e.catcat321.com_20041
-  - trojan_149.104.104.58_443
-  - trojan_relaxing-bluebird.rooster465.autos_443
-  - trojan_www.speedtest.org_443
-  - trojan_104.17.177.143_443
-  - trojan_104.16.174.36_443
+  - trojan_rich-gelding.rooster465.autos_443
+  - trojan_54.249.32.173_443
+  - trojan_sweeping-parakeet.rooster465.autos_443
+  - trojan_57.180.13.78_443
+  - trojan_premium-weevil.rooster465.autos_443
   - trojan_104.16.174.117_443
+  - trojan_198.41.223.96_443
+  - trojan_104.16.174.44_443
+  - trojan_104.17.177.143_443
+  - trojan_104.18.152.144_443
+  - trojan_104.18.152.77_443
+  - trojan_www.ignitelimit.com_443
+  - trojan_165.215.250.14_443
+  - trojan_104.16.174.34_443
   - trojan_104.18.152.97_443
-  - trojan_104.18.152.73_443
-  - trojan_104.16.174.6_443
+  - trojan_104.16.174.36_443
+  - trojan_104.20.6.134_443
   - trojan_104.16.174.71_443
-  - trojan_104.18.12.149_443
-  - trojan_104.18.152.140_443
-  - trojan_104.18.152.113_443
-  - trojan_oplosgru-c.catcat321.com_20088
-  - trojan_104.18.152.108_443
-  - trojan_104.18.152.246_443
-  - trojan_oplosgru-c.catcat321.com_20004
-  - trojan_172.66.173.172_443
-  - trojan_104.21.84.3_443
+  - trojan_ip.myip2.qzz.io_443
+  - trojan_104.16.174.6_443
+  - trojan_104.18.152.229_443
+  - trojan_104.16.174.22_443
   - trojan_104.18.152.219_443
-  - vmess_v9.hdacd.com_30809
-  - vmess_v33.hdacd.com_30833
-  - vmess_v10.hdacd.com_30807
+  - trojan_104.26.15.137_443
+  - trojan_104.26.14.137_443
+  - trojan_www.speedtest.org_443
+  - trojan_104.18.152.108_443
+  - trojan_104.18.152.140_443
+  - trojan_104.16.73.213_443
+  - trojan_104.18.152.208_443
+  - trojan_104.18.152.73_443
+  - trojan_104.17.111.4_443
+  - trojan_104.18.152.50_443
+  - trojan_104.18.22.63_443
+  - trojan_2.144.21.150_2000
+  - trojan_104.18.152.152_443
+  - trojan_104.18.152.133_443
+  - trojan_104.18.152.204_443
+  - trojan_86.38.214.205_443
+  - trojan_104.18.152.225_443
+  - trojan_blackshadow.dpdns.org_443
+  - trojan_104.17.111.8_443
+  - trojan_172.67.221.242_443
+  - trojan_104.16.174.14_443
+  - trojan_104.16.174.12_443
+  - trojan_104.16.174.72_443
+  - trojan_104.18.12.149_443
+  - trojan_104.18.152.175_443
+  - trojan_104.18.152.103_443
+  - trojan_104.18.152.187_443
+  - trojan_104.18.152.210_443
+  - trojan_104.18.152.159_443
+  - trojan_172.67.149.60_443
+  - trojan_104.18.152.207_443
+  - trojan_104.16.7.70_443
+  - trojan_8.6.112.0_443
+  - trojan_8.6.112.6_443
+  - trojan_216.24.57.7_443
+  - trojan_render.com_443
+  - trojan_216.24.57.1_443
+  - trojan_141.101.90.101_443
+  - trojan_104.18.152.155_443
+  - trojan_130.250.137.171_443
+  - trojan_104.16.174.37_443
+  - trojan_104.16.174.121_443
+  - trojan_104.18.23.63_443
+  - trojan_104.16.174.46_443
+  - trojan_104.18.152.113_443
+  - trojan_select-chipmunk.rooster465.autos_443
+  - trojan_musical-terrier.rooster465.autos_443
+  - trojan_assuring-skink.rooster465.autos_443
+  - trojan_national-dingo.rooster465.autos_443
+  - trojan_square-guinea.rooster465.autos_443
+  - trojan_leading-eel.rooster465.autos_443
+  - trojan_welcome-monitor.rooster465.autos_443
+  - trojan_proven-stud.rooster465.autos_443
+  - trojan_master-possum.rooster465.autos_443
+  - trojan_104.18.152.246_443
+  - trojan_104.21.46.3_443
+  - trojan_104.17.111.3_443
+  - trojan_188.114.97.7_443
+  - trojan_104.18.152.179_443
+  - trojan_2c.fast9988.com_50887
   - vmess_v35.hdacd.com_30835
-  - vmess_v6.hdacd.com_30806
-  - vmess_cf.levikogjgfdd.ir_2053
+  - vmess_v10.hdacd.com_30807
+  - vmess_v36.hdacd.com_30836
+  - vmess_rush-6it6b.teeopp.quest_443
+  - vmess_v45.hdacd.com_30845
+  - vmess_v24.hdacd.com_30824
   - vmess_185.246.152.159_443
+  - vmess_cindy52.ceoiii.com_36803
+  - vmess_cindy50.ceoiii.com_36801
+  - vmess_94.182.88.61_2078
+  - vmess_www.true.th_80
+  - vmess_v9.hdacd.com_30809
+  - vmess_v29.hdacd.com_30829
 rules:
 - DOMAIN-SUFFIX,google.com,Auto
 - FINAL,Auto
