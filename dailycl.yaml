@@ -1,28 +1,118 @@
 proxies:
-- name: ss_149.22.87.204_443
+- name: ss_149.22.87.241_443
   type: ss
-  server: 149.22.87.204
+  server: 149.22.87.241
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
-- name: ss_149.22.87.240_443
-  type: ss
-  server: 149.22.87.240
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: vmess_168.138.43.75_80
+- name: vmess_172.64.229.21_443
   type: vmess
-  server: 168.138.43.75
-  port: 80
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  server: 172.64.229.21
+  port: 443
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   network: ws
   ws-headers:
-    Host: 168.138.43.75
-  ws-path: /cctv13.m3u8
+    Host: vmess.lbw666.dpdns.org
+  ws-path: /ws?ed=2048
+- name: vmess_104.21.57.84_8443
+  type: vmess
+  server: 104.21.57.84
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: v2ray1.dozapp.xyz
+  ws-path: /lMnsZUN4/
+- name: vmess_8.209.113.255_443
+  type: vmess
+  server: 8.209.113.255
+  port: 443
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: lg30.cfcdn3.xyz
+  ws-path: /ray
+- name: vmess_8.209.89.166_443
+  type: vmess
+  server: 8.209.89.166
+  port: 443
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: lg30.cfcdn3.xyz
+  ws-path: /ray
+- name: vmess_8.209.112.171_443
+  type: vmess
+  server: 8.209.112.171
+  port: 443
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: lg30.cfcdn3.xyz
+  ws-path: /ray
+- name: vmess_8.209.118.4_443
+  type: vmess
+  server: 8.209.118.4
+  port: 443
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: lg30.cfcdn3.xyz
+  ws-path: /ray
+- name: vmess_8.209.119.61_443
+  type: vmess
+  server: 8.209.119.61
+  port: 443
+  uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: goodfamily19.site
+  ws-path: /wmzmvws
+- name: vmess_8.209.105.92_443
+  type: vmess
+  server: 8.209.105.92
+  port: 443
+  uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: goodfamily19.site
+  ws-path: /wmzmvws
+- name: vmess_www.windowsmsidownloads.com_443
+  type: vmess
+  server: www.windowsmsidownloads.com
+  port: 443
+  uuid: 80be2deb-3b27-4775-9bd1-7f2a2b9c261b
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: www.windowsmsidownloads.com
+  ws-path: /
 - name: vmess_guanwang.awsno.com_443
   type: vmess
   server: guanwang.awsno.com
@@ -35,6 +125,81 @@ proxies:
   ws-headers:
     Host: guanwang.awsno.com
   ws-path: /hls/cctv5phd.m3u8
+- name: vmess_120.48.133.162_10086
+  type: vmess
+  server: 120.48.133.162
+  port: 10086
+  uuid: a01e5d56-464f-45b9-b600-164db4700162
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+- name: vmess_112.132.215.108_50002
+  type: vmess
+  server: 112.132.215.108
+  port: 50002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  network: tcp
+- name: vmess_v6.hdacd.com_30806
+  type: vmess
+  server: v6.hdacd.com
+  port: 30806
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: tcp
+- name: vmess_ADncdOvLHR4M1P36.v.3dns.vip_443
+  type: vmess
+  server: ADncdOvLHR4M1P36.v.3dns.vip
+  port: 443
+  uuid: f0b7bbd66aad458aaec0e9acaab768b6
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: ADncdOvLHR4M1P36.v.3dns.vip
+  ws-path: /ws-vmess
+- name: vmess_kBONDXW9liFCi4h4.v.3dns.vip_443
+  type: vmess
+  server: kBONDXW9liFCi4h4.v.3dns.vip
+  port: 443
+  uuid: f0b7bbd66aad458aaec0e9acaab768b6
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: kBONDXW9liFCi4h4.v.3dns.vip
+  ws-path: /ws-vmess
+- name: vmess_aZW0eunYVdvRe73k.v.3dns.vip_443
+  type: vmess
+  server: aZW0eunYVdvRe73k.v.3dns.vip
+  port: 443
+  uuid: f0b7bbd66aad458aaec0e9acaab768b6
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: aZW0eunYVdvRe73k.v.3dns.vip
+  ws-path: /ws-vmess
+- name: vmess_syJ2gGUgMwBwQwQx.v.3dns.vip_443
+  type: vmess
+  server: syJ2gGUgMwBwQwQx.v.3dns.vip
+  port: 443
+  uuid: f0b7bbd66aad458aaec0e9acaab768b6
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: syJ2gGUgMwBwQwQx.v.3dns.vip
+  ws-path: /ws-vmess
 - name: vmess_Z9FfBx3zs2q5O0BG.v.3dns.vip_443
   type: vmess
   server: Z9FfBx3zs2q5O0BG.v.3dns.vip
@@ -119,234 +284,60 @@ proxies:
   ws-headers:
     Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
   ws-path: /ws-vmess
-- name: vmess_9641684.sdf65h4.top_443
+- name: vmess_aesafdfaesfv.asopardaz.ir_80
   type: vmess
-  server: 9641684.sdf65h4.top
-  port: 443
-  uuid: 250c015d-bab0-4ed3-b638-b4eda48f5840
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: 9641684.sdf65h4.top
-  ws-path: /
-- name: vmess_104.21.57.84_8443
-  type: vmess
-  server: 104.21.57.84
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: v2ray1.dozapp.xyz
-  ws-path: /lMnsZUN4/
-- name: vmess_us16-4.998998.best_443
-  type: vmess
-  server: us16-4.998998.best
-  port: 443
-  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: server1.9966338.xyz
-  ws-path: /efrsdioy98wert
-- name: vmess_104.21.7.101_80
-  type: vmess
-  server: 104.21.7.101
+  server: aesafdfaesfv.asopardaz.ir
   port: 80
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  uuid: ce71b8c2-54a4-4dd0-b780-a4521b16f2fd
   alterId: 0
   cipher: auto
   tls: false
-  network: ws
-  ws-headers:
-    Host: gbnh.0nn.ccwu.cc
-  ws-path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- name: vmess_172.64.80.1_8443
+  network: http
+- name: vmess_tun.xelnivo.ir_33625
   type: vmess
-  server: 172.64.80.1
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: v2ray1.dozapp.xyz
-  ws-path: /
-- name: vmess_www.digitalocean.com_8080
-  type: vmess
-  server: www.digitalocean.com
-  port: 8080
-  uuid: b1df7e3f-db11-490c-9bc9-c5c1a31f2ec5
+  server: tun.xelnivo.ir
+  port: 33625
+  uuid: f6547466-a44a-41e7-9b71-473c5bf05723
   alterId: 0
   cipher: auto
   tls: false
-  network: ws
-  ws-headers:
-    Host: ssrsub.v01.asuka.buzz
-  ws-path: /
-- name: vmess_uk3-2.998998.best_443
+  network: tcp
+- name: vmess_w12.luoli.de_443
   type: vmess
-  server: uk3-2.998998.best
+  server: w12.luoli.de
   port: 443
-  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  uuid: 42a99644-b90b-3627-8809-a2d6c4078b59
   alterId: 0
   cipher: auto
   tls: true
   network: ws
   ws-headers:
-    Host: server22.9966338.xyz
-  ws-path: /
-- name: vmess_aws-beijing-1.dnspro.icu_20029
+    Host: w12.luoli.de
+  ws-path: /v2ws
+- name: vmess_cd0.bmi.ir.kolman.com.de_80
   type: vmess
-  server: aws-beijing-1.dnspro.icu
-  port: 20029
-  uuid: 3155e00f-71ef-3edc-b6d0-5bce283daf90
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-headers:
-    Host: aws-beijing-1.dnspro.icu
-  ws-path: /
-- name: vmess_198.41.208.216_443
-  type: vmess
-  server: 198.41.208.216
-  port: 443
-  uuid: 6248895b-4255-4f07-9479-d198bc1eb8db
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: hkhgc.meizhiyuanya.xyz
-  ws-path: /
-- name: vmess_141.101.115.128_443
-  type: vmess
-  server: 141.101.115.128
-  port: 443
-  uuid: 6248895b-4255-4f07-9479-d198bc1eb8db
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: hkhgc.meizhiyuanya.xyz
-  ws-path: /
-- name: vmess_193.122.119.64_80
-  type: vmess
-  server: 193.122.119.64
+  server: cd0.bmi.ir.kolman.com.de
   port: 80
-  uuid: fa0702f4-8ec9-48e5-9b53-a0afb7c3717e
+  uuid: 2da85937-93d9-4509-8491-63b1921cf447
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-headers:
-    Host: dm.toutiao.com
-  ws-path: /
-- name: vmess_141.101.115.158_443
+    Host: bmi.ir.draft.co.impossible.com.ir.bmi.ir.com.iran.ir6.ifilmino.com
+  ws-path: /f9bGbG7ZNy5L0tzXKZNxSX4q
+- name: vmess_bmi2.kolman.com.de_80
   type: vmess
-  server: 141.101.115.158
-  port: 443
-  uuid: 6248895b-4255-4f07-9479-d198bc1eb8db
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: hinet.meizhiyuanya.xyz
-  ws-path: /
-- name: vmess_172.67.187.145_80
-  type: vmess
-  server: 172.67.187.145
+  server: bmi2.kolman.com.de
   port: 80
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  uuid: 2da85937-93d9-4509-8491-63b1921cf447
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-headers:
-    Host: vmess.lbw666.dpdns.org
-  ws-path: /
-- name: vmess_104.17.147.222_80
-  type: vmess
-  server: 104.17.147.222
-  port: 80
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-headers:
-    Host: vmess.lbw666.dpdns.org
-  ws-path: /
-- name: vmess_aws-beijing-1.dnspro.icu_20023
-  type: vmess
-  server: aws-beijing-1.dnspro.icu
-  port: 20023
-  uuid: 3155e00f-71ef-3edc-b6d0-5bce283daf90
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-headers:
-    Host: aws-beijing-1.dnspro.icu
-  ws-path: /
-- name: vmess_172.64.229.21_443
-  type: vmess
-  server: 172.64.229.21
-  port: 443
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: vmess.lbw666.dpdns.org
-  ws-path: /
-- name: vmess_db01.paopaocloud.cyou_443
-  type: vmess
-  server: db01.paopaocloud.cyou
-  port: 443
-  uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: db01.paopaocloud.cyou
-  ws-path: /
-- name: vmess_172.66.203.67_443
-  type: vmess
-  server: 172.66.203.67
-  port: 443
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: vmess.lbw666.dpdns.org
-  ws-path: /
-- name: vmess_172.64.153.201_443
-  type: vmess
-  server: 172.64.153.201
-  port: 443
-  uuid: 28dad69c-c9d6-47c5-ad05-c66afb87ccbd
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: clash3.trump2023.org
-  ws-path: /
+    Host: zeo6-lylp.uti.realoslo-norg.maniyadg7shard.ir
+  ws-path: /f9bGbG7ZNy5L0tzXKZNxSX4q
 - name: vmess_cindy52.ceoiii.com_36803
   type: vmess
   server: cindy52.ceoiii.com
@@ -407,110 +398,18 @@ proxies:
   ws-headers:
     Host: jmp1.907737.xyz
   ws-path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
-- name: vmess_or3.sfacg.uk_2083
+- name: vmess_104.17.136.198_443
   type: vmess
-  server: or3.sfacg.uk
-  port: 2083
-  uuid: ac251237-576f-40c8-a543-554960c958b1
+  server: 104.17.136.198
+  port: 443
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
   alterId: 0
   cipher: auto
   tls: true
   network: ws
   ws-headers:
-    Host: or3.sfacg.uk
-  ws-path: /or3
-- name: vmess_v24.hdacd.com_30824
-  type: vmess
-  server: v24.hdacd.com
-  port: 30824
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-headers:
-    Host: v24.hdacd.com
-  ws-path: /
-- name: vmess_v6.hdacd.com_30806
-  type: vmess
-  server: v6.hdacd.com
-  port: 30806
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-headers:
-    Host: v6.hdacd.com
-  ws-path: /
-- name: vmess_v4.hdacd.com_30804
-  type: vmess
-  server: v4.hdacd.com
-  port: 30804
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-headers:
-    Host: v4.hdacd.com
-  ws-path: /
-- name: vmess_v35.hdacd.com_30835
-  type: vmess
-  server: v35.hdacd.com
-  port: 30835
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-headers:
-    Host: v35.hdacd.com
-  ws-path: /
-- name: vmess_104.17.77.77_8443
-  type: vmess
-  server: 104.17.77.77
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /lMnsZUN4/
-- name: vmess_jp4.998998.best_443
-  type: vmess
-  server: jp4.998998.best
-  port: 443
-  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: nat12.9966338.xyz
-  ws-path: /vvvvvvvvv
-- name: vmess_node8.liudonghoe.com_443
-  type: vmess
-  server: node8.liudonghoe.com
-  port: 443
-  uuid: 47050e4e-965d-41ca-976d-73c1f11e6905
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: node8.liudonghoe.com
-  ws-path: /hoe8
-- name: trojan_188.114.98.0_443
-  type: trojan
-  server: 188.114.98.0
-  port: 443
-  password: 5504eaa8-1395-402f-8e0e-75ecd762e627
-- name: trojan_185.220.100.168_443
-  type: trojan
-  server: 185.220.100.168
-  port: 443
-  password: humanity
+    Host: vmess.lbw666.dpdns.org
+  ws-path: /ws?ed=2048
 - name: trojan_www.calmlunch.com_443
   type: trojan
   server: www.calmlunch.com
@@ -531,11 +430,6 @@ proxies:
   server: 104.19.229.21
   port: 443
   password: humanity
-- name: trojan_212.183.88.136_443
-  type: trojan
-  server: 212.183.88.136
-  port: 443
-  password: humanity
 - name: trojan_jp005.421421.xyz_20230
   type: trojan
   server: jp005.421421.xyz
@@ -546,37 +440,27 @@ proxies:
   server: 47.250.84.25
   port: 443
   password: 5931134d1cde66bf83a54acdfebe7ab2
-- name: trojan_161.35.192.122_443
+  sni: moltbot.doctoroyy.net
+- name: trojan_45.128.76.242_443
   type: trojan
-  server: 161.35.192.122
+  server: 45.128.76.242
   port: 443
   password: humanity
-- name: trojan_46.101.110.34_443
+- name: trojan_95.85.32.57_443
   type: trojan
-  server: 46.101.110.34
+  server: 95.85.32.57
   port: 443
   password: humanity
-- name: trojan_31.57.190.71_443
+- name: trojan_209.38.99.120_443
   type: trojan
-  server: 31.57.190.71
+  server: 209.38.99.120
   port: 443
   password: humanity
-- name: trojan_209.38.225.64_443
+- name: trojan_171.22.119.74_8446
   type: trojan
-  server: 209.38.225.64
-  port: 443
-  password: humanity
-- name: trojan_31.57.190.34_443
-  type: trojan
-  server: 31.57.190.34
-  port: 443
-  password: humanity
-- name: trojan_23.106.44.14_443
-  type: trojan
-  server: 23.106.44.14
-  port: 443
-  password: 600421cf-11d7-429f-a65b-c30397f1bc03
-  sni: sj6.freeguard.org
+  server: 171.22.119.74
+  port: 8446
+  password: Pass-Client-1
 - name: trojan_7d0a2gz0-7a0c.aws-agent.net_12103
   type: trojan
   server: 7d0a2gz0-7a0c.aws-agent.net
@@ -637,28 +521,22 @@ proxies:
   port: 11171
   password: AA885B42-133C-3828-FB69-E45105C06092
   sni: m.ctrip.com
-- name: trojan_216.24.57.225_2087
+- name: trojan_162.159.228.224_443
   type: trojan
-  server: 216.24.57.225
-  port: 2087
-  password: xwhfg0wu1wxv377f
-- name: trojan_tjhg.m2k699.com_24999
-  type: trojan
-  server: tjhg.m2k699.com
-  port: 24999
-  password: 28c4a59d-c2a0-4d6c-ba7d-db6a354990de
-  sni: www.itunes.com
-- name: trojan_www.visa.com.sg_2053
-  type: trojan
-  server: www.visa.com.sg
-  port: 2053
-  password: 040870be-ae04-43d7-b265-bbe7b64b60db
-- name: trojan_polo01.kctr2038.icu_443
-  type: trojan
-  server: polo01.kctr2038.icu
+  server: 162.159.228.224
   port: 443
-  password: 88939272-790a-441f-b12b-8ce531aca810
-  sni: polo01.kctr2038.icu
+  password: humanity
+- name: trojan_104.18.35.86_8443
+  type: trojan
+  server: 104.18.35.86
+  port: 8443
+  password: trojan
+- name: trojan_172.67.203.46_443
+  type: trojan
+  server: 172.67.203.46
+  port: 443
+  password: humanity
+  sni: www.cordweave.com
 - name: trojan_www.ignitelimit.com_443
   type: trojan
   server: www.ignitelimit.com
@@ -802,12 +680,6 @@ proxies:
   port: 443
   password: humanity
   sni: www.ignitelimit.com
-- name: trojan_104.18.152.143_443
-  type: trojan
-  server: 104.18.152.143
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
 - name: trojan_104.18.152.207_443
   type: trojan
   server: 104.18.152.207
@@ -844,26 +716,102 @@ proxies:
   port: 443
   password: humanity
   sni: www.ignitelimit.com
+- name: trojan_88.198.82.150_443
+  type: trojan
+  server: 88.198.82.150
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
 - name: trojan_104.16.174.101_443
   type: trojan
   server: 104.16.174.101
   port: 443
   password: humanity
   sni: www.ignitelimit.com
-- name: trojan_157.230.29.88_443
+- name: trojan_45.80.111.7_443
   type: trojan
-  server: 157.230.29.88
+  server: 45.80.111.7
   port: 443
   password: humanity
-  sni: wWw.Volumeroot.cOm
+  sni: www.calmlunch.com
+- name: trojan_www.speedtest.net_443
+  type: trojan
+  server: www.speedtest.net
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+- name: trojan_162.159.36.20_443
+  type: trojan
+  server: 162.159.36.20
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+- name: trojan_www.visa.com.sg_2053
+  type: trojan
+  server: www.visa.com.sg
+  port: 2053
+  password: f7c5011b-84cc-45d4-a0b3-ce28be0f5807
+  sni: au1.yang-1989.xyz
+- name: trojan_www.visa.com.sg_2096
+  type: trojan
+  server: www.visa.com.sg
+  port: 2096
+  password: 3aa78b49-5530-45a2-93cb-b093745824f1
+  sni: au4.yang-1989.xyz
+- name: trojan_172.66.47.18_443
+  type: trojan
+  server: 172.66.47.18
+  port: 443
+  password: e7TTceggMwUMg%252525252BaFN%252525253AF4
+  sni: APkD964o1oghlTghHt0L0Of.pAgeS.Dev
+- name: trojan_russia.com_443
+  type: trojan
+  server: russia.com
+  port: 443
+  password: bpb-trojan
+  sni: 6982410.xyz
+- name: trojan_141.193.213.172_443
+  type: trojan
+  server: 141.193.213.172
+  port: 443
+  password: humanity
+- name: trojan_172.66.40.99_443
+  type: trojan
+  server: 172.66.40.99
+  port: 443
+  password: humanity
+- name: trojan_162.159.91.211_443
+  type: trojan
+  server: 162.159.91.211
+  port: 443
+  password: humanity
+- name: trojan_185.18.250.252_443
+  type: trojan
+  server: 185.18.250.252
+  port: 443
+  password: humanity
 proxy-groups:
 - name: Auto
   type: select
   proxies:
-  - ss_149.22.87.204_443
-  - ss_149.22.87.240_443
-  - vmess_168.138.43.75_80
+  - ss_149.22.87.241_443
+  - vmess_172.64.229.21_443
+  - vmess_104.21.57.84_8443
+  - vmess_8.209.113.255_443
+  - vmess_8.209.89.166_443
+  - vmess_8.209.112.171_443
+  - vmess_8.209.118.4_443
+  - vmess_8.209.119.61_443
+  - vmess_8.209.105.92_443
+  - vmess_www.windowsmsidownloads.com_443
   - vmess_guanwang.awsno.com_443
+  - vmess_120.48.133.162_10086
+  - vmess_112.132.215.108_50002
+  - vmess_v6.hdacd.com_30806
+  - vmess_ADncdOvLHR4M1P36.v.3dns.vip_443
+  - vmess_kBONDXW9liFCi4h4.v.3dns.vip_443
+  - vmess_aZW0eunYVdvRe73k.v.3dns.vip_443
+  - vmess_syJ2gGUgMwBwQwQx.v.3dns.vip_443
   - vmess_Z9FfBx3zs2q5O0BG.v.3dns.vip_443
   - vmess_kQov7UKaDknXb8a3.v.3dns.vip_443
   - vmess_kneNaKHeSXnZH259.v.3dns.vip_443
@@ -871,53 +819,27 @@ proxy-groups:
   - vmess_8nTzyR5KNivfabaT.v.3dns.vip_443
   - vmess_53vXOVarmgcreAsv.v.3dns.vip_443
   - vmess_bJ1Aa2ZyJxYamYuK.v.3dns.vip_443
-  - vmess_9641684.sdf65h4.top_443
-  - vmess_104.21.57.84_8443
-  - vmess_us16-4.998998.best_443
-  - vmess_104.21.7.101_80
-  - vmess_172.64.80.1_8443
-  - vmess_www.digitalocean.com_8080
-  - vmess_uk3-2.998998.best_443
-  - vmess_aws-beijing-1.dnspro.icu_20029
-  - vmess_198.41.208.216_443
-  - vmess_141.101.115.128_443
-  - vmess_193.122.119.64_80
-  - vmess_141.101.115.158_443
-  - vmess_172.67.187.145_80
-  - vmess_104.17.147.222_80
-  - vmess_aws-beijing-1.dnspro.icu_20023
-  - vmess_172.64.229.21_443
-  - vmess_db01.paopaocloud.cyou_443
-  - vmess_172.66.203.67_443
-  - vmess_172.64.153.201_443
+  - vmess_aesafdfaesfv.asopardaz.ir_80
+  - vmess_tun.xelnivo.ir_33625
+  - vmess_w12.luoli.de_443
+  - vmess_cd0.bmi.ir.kolman.com.de_80
+  - vmess_bmi2.kolman.com.de_80
   - vmess_cindy52.ceoiii.com_36803
   - vmess_cindy50.ceoiii.com_36801
   - vmess_www.true.th_80
   - vmess_hk2.998998.best_443
   - vmess_yg1.ygkkk.dpdns.org_443
-  - vmess_or3.sfacg.uk_2083
-  - vmess_v24.hdacd.com_30824
-  - vmess_v6.hdacd.com_30806
-  - vmess_v4.hdacd.com_30804
-  - vmess_v35.hdacd.com_30835
-  - vmess_104.17.77.77_8443
-  - vmess_jp4.998998.best_443
-  - vmess_node8.liudonghoe.com_443
-  - trojan_188.114.98.0_443
-  - trojan_185.220.100.168_443
+  - vmess_104.17.136.198_443
   - trojan_www.calmlunch.com_443
   - trojan_185.114.72.31_2053
   - trojan_165.215.250.14_443
   - trojan_104.19.229.21_443
-  - trojan_212.183.88.136_443
   - trojan_jp005.421421.xyz_20230
   - trojan_47.250.84.25_443
-  - trojan_161.35.192.122_443
-  - trojan_46.101.110.34_443
-  - trojan_31.57.190.71_443
-  - trojan_209.38.225.64_443
-  - trojan_31.57.190.34_443
-  - trojan_23.106.44.14_443
+  - trojan_45.128.76.242_443
+  - trojan_95.85.32.57_443
+  - trojan_209.38.99.120_443
+  - trojan_171.22.119.74_8446
   - trojan_7d0a2gz0-7a0c.aws-agent.net_12103
   - trojan_7d0a2gz0-7a0c.aws-agent.net_10115
   - trojan_7d0a2gz0-7a0c.aws-agent.net_12107
@@ -928,10 +850,9 @@ proxy-groups:
   - trojan_63182sh8-4d7b.aws-agent.net_12122
   - trojan_7d0a2gz0-7a0c.aws-agent.net_12142
   - trojan_63182sh8-4d7b.aws-agent.net_11171
-  - trojan_216.24.57.225_2087
-  - trojan_tjhg.m2k699.com_24999
-  - trojan_www.visa.com.sg_2053
-  - trojan_polo01.kctr2038.icu_443
+  - trojan_162.159.228.224_443
+  - trojan_104.18.35.86_8443
+  - trojan_172.67.203.46_443
   - trojan_www.ignitelimit.com_443
   - trojan_blackshadow.dpdns.org_443
   - trojan_104.16.174.36_443
@@ -956,15 +877,25 @@ proxy-groups:
   - trojan_104.18.152.229_443
   - trojan_104.18.152.187_443
   - trojan_216.24.57.7_443
-  - trojan_104.18.152.143_443
   - trojan_104.18.152.207_443
   - trojan_104.18.12.149_443
   - trojan_8.6.112.6_443
   - trojan_104.16.174.37_443
   - trojan_188.114.97.7_443
   - trojan_join-telegram-channel.tirexnet.kdns.fr_443
+  - trojan_88.198.82.150_443
   - trojan_104.16.174.101_443
-  - trojan_157.230.29.88_443
+  - trojan_45.80.111.7_443
+  - trojan_www.speedtest.net_443
+  - trojan_162.159.36.20_443
+  - trojan_www.visa.com.sg_2053
+  - trojan_www.visa.com.sg_2096
+  - trojan_172.66.47.18_443
+  - trojan_russia.com_443
+  - trojan_141.193.213.172_443
+  - trojan_172.66.40.99_443
+  - trojan_162.159.91.211_443
+  - trojan_185.18.250.252_443
 rules:
 - DOMAIN-SUFFIX,google.com,Auto
 - FINAL,Auto
