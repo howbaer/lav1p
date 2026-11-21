@@ -1,343 +1,161 @@
 proxies:
-- name: trojan_104.26.6.171_443
-  type: trojan
-  server: 104.26.6.171
-  port: 443
-  password: reinz
-  tls: true
-- name: trojan_t2w2t2w2.bpca2026.top_443
-  type: trojan
-  server: t2w2t2w2.bpca2026.top
-  port: 443
-  password: b7795ce8-3863-4292-adfc-9c0a7b847774
-  sni: t2w2t2w2.bpca2026.top
-- name: trojan_sclass-01.catcat321.com_20103
-  type: trojan
-  server: sclass-01.catcat321.com
-  port: 20103
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  sni: hk.catxstar.com
-- name: trojan_sclass-c2.catcat321.com_20051
-  type: trojan
-  server: sclass-c2.catcat321.com
-  port: 20051
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  sni: hk.catxstar.com
-- name: trojan_www.ignitelimit.com_443
-  type: trojan
-  server: www.ignitelimit.com
-  port: 443
-  password: humanity
-- name: trojan_104.16.174.36_443
-  type: trojan
-  server: 104.16.174.36
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-- name: trojan_104.18.152.225_443
-  type: trojan
-  server: 104.18.152.225
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-- name: trojan_104.18.152.219_443
-  type: trojan
-  server: 104.18.152.219
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-- name: trojan_104.18.152.73_443
-  type: trojan
-  server: 104.18.152.73
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-- name: trojan_www.speedtest.org_443
-  type: trojan
-  server: www.speedtest.org
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-- name: trojan_104.18.152.152_443
-  type: trojan
-  server: 104.18.152.152
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-- name: trojan_104.18.22.63_443
-  type: trojan
-  server: 104.18.22.63
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-- name: trojan_104.18.152.133_443
-  type: trojan
-  server: 104.18.152.133
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-- name: trojan_86.38.214.205_443
-  type: trojan
-  server: 86.38.214.205
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-- name: trojan_104.18.152.77_443
-  type: trojan
-  server: 104.18.152.77
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-- name: trojan_104.18.152.140_443
-  type: trojan
-  server: 104.18.152.140
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-- name: trojan_104.16.174.44_443
-  type: trojan
-  server: 104.16.174.44
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-- name: trojan_104.18.152.204_443
-  type: trojan
-  server: 104.18.152.204
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-- name: trojan_104.16.174.117_443
-  type: trojan
-  server: 104.16.174.117
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-- name: trojan_104.18.152.208_443
-  type: trojan
-  server: 104.18.152.208
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-- name: trojan_104.26.15.137_443
-  type: trojan
-  server: 104.26.15.137
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-- name: trojan_104.17.111.4_443
-  type: trojan
-  server: 104.17.111.4
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-- name: trojan_104.26.14.137_443
-  type: trojan
-  server: 104.26.14.137
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-- name: trojan_104.16.73.213_443
-  type: trojan
-  server: 104.16.73.213
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-- name: trojan_104.18.152.229_443
-  type: trojan
-  server: 104.18.152.229
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-- name: trojan_104.18.152.187_443
-  type: trojan
-  server: 104.18.152.187
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-- name: trojan_216.24.57.7_443
-  type: trojan
-  server: 216.24.57.7
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-- name: trojan_104.18.152.143_443
-  type: trojan
-  server: 104.18.152.143
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-- name: trojan_104.18.152.207_443
-  type: trojan
-  server: 104.18.152.207
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-- name: trojan_104.18.12.149_443
-  type: trojan
-  server: 104.18.12.149
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-- name: trojan_8.6.112.6_443
-  type: trojan
-  server: 8.6.112.6
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-- name: trojan_104.16.174.37_443
-  type: trojan
-  server: 104.16.174.37
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-- name: trojan_188.114.97.7_443
-  type: trojan
-  server: 188.114.97.7
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-- name: trojan_join-telegram-channel.tirexnet.kdns.fr_443
-  type: trojan
-  server: join-telegram-channel.tirexnet.kdns.fr
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-- name: trojan_104.16.174.101_443
-  type: trojan
-  server: 104.16.174.101
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-- name: trojan_185.220.100.168_443
-  type: trojan
-  server: 185.220.100.168
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-- name: trojan_www.calmlunch.com_443
-  type: trojan
-  server: www.calmlunch.com
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-- name: trojan_167.82.64.120_443
-  type: trojan
-  server: 167.82.64.120
-  port: 443
-  password: MiTiVPN
-  sni: firefox.com
-- name: trojan_104.19.229.21_443
-  type: trojan
-  server: 104.19.229.21
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-- name: ss_c17b957c5a76ec76.lebufflonfermegroup.us_21191
+- name: ss_149.22.87.241_443
   type: ss
-  server: c17b957c5a76ec76.lebufflonfermegroup.us
-  port: 21191
-  cipher: aes-256-gcm
-  password: 3411b0af-589e-40f3-b8d5-d2e04ce19fa9
-- name: ss_c17b957c5a76ec76.lebufflonfermegroup.us_40011
-  type: ss
-  server: c17b957c5a76ec76.lebufflonfermegroup.us
-  port: 40011
+  server: 149.22.87.241
+  port: 443
   cipher: aes-128-gcm
-  password: 3411b0af-589e-40f3-b8d5-d2e04ce19fa9
-- name: vmess_23.165.200.150_52080
+  password: shadowsocks
+- name: ss_149.22.87.240_443
+  type: ss
+  server: 149.22.87.240
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: ss_149.22.87.204_443
+  type: ss
+  server: 149.22.87.204
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: vmess_64.176.34.102_46130
   type: vmess
-  server: 23.165.200.150
-  port: 52080
-  uuid: 672cdade-bb05-4c86-b578-e5d09b79524a
+  server: 64.176.34.102
+  port: 46130
+  uuid: 477350b2-7536-4f38-ee21-020efdde2d1d
   alterId: 0
   cipher: auto
   tls: false
-  network: http
-  ws-headers:
-    Host: down-cdn.dingtalk.com
-  ws-path: /QQqun-737805443
-- name: vmess_188.114.99.137_443
+  network: tcp
+- name: vmess_168.138.43.75_80
   type: vmess
-  server: 188.114.99.137
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: guanwang.awsno.com
-  ws-path: /hls/cctv5phd.m3u8
-- name: vmess_172.67.190.164_443
-  type: vmess
-  server: 172.67.190.164
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: guanwang.awsno.com
-  ws-path: /hls/cctv5phd.m3u8
-- name: vmess_US122201.ssgreen.org_443
-  type: vmess
-  server: US122201.ssgreen.org
-  port: 443
-  uuid: 930b4722-5d1d-4c74-a9a1-694d0e9a69af
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: US122201.ssgreen.org
-  ws-path: /wes
-- name: vmess_bmi2.kolman.com.de_80
-  type: vmess
-  server: bmi2.kolman.com.de
+  server: 168.138.43.75
   port: 80
-  uuid: cfe7a80d-34c6-46df-909d-2daa14f98136
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
   alterId: 0
   cipher: auto
   tls: false
+  network: ws
+  ws-path: /cctv13.m3u8
+- name: vmess_192.74.236.148_30004
+  type: vmess
+  server: 192.74.236.148
+  port: 30004
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
   network: ws
   ws-headers:
-    Host: zeo6-lylp.uti.realoslo-norg.maniyadg7shard.ir.
-  ws-path: /f9bGbG7ZNy5L0tzXKZNxSX4q
-- name: vmess_104.18.190.89_8880
+    Host: www.91334565.xyz
+  ws-path: /path/1733477783705
+- name: vmess_172.64.154.222_443
   type: vmess
-  server: 104.18.190.89
-  port: 8880
-  uuid: 4b5e4565-322f-4223-a891-78a84f189726
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /GdtYWlsLmNvbSJ9LCJjb3V
-- name: vmess_8.219.178.80_443
-  type: vmess
-  server: 8.219.178.80
+  server: 172.64.154.222
   port: 443
-  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
   alterId: 0
   cipher: auto
   tls: true
   network: ws
   ws-headers:
-    Host: uk2.v2rayserv.com
-  ws-path: /sshocean
-- name: vmess_8.219.185.204_443
+    Host: lg1.cfcdn1.xyz
+  ws-path: /ray
+- name: vmess_198.41.203.3_443
   type: vmess
-  server: 8.219.185.204
+  server: 198.41.203.3
   port: 443
-  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+  uuid: 33aa57df-1c93-4318-9fce-e850437ee781
   alterId: 0
   cipher: auto
   tls: true
   network: ws
   ws-headers:
-    Host: uk2.v2rayserv.com
-  ws-path: /sshocean
+    Host: lg1.cfcdn3.xyz
+  ws-path: /dongtaiwang.com
+- name: vmess_198.41.203.1_443
+  type: vmess
+  server: 198.41.203.1
+  port: 443
+  uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: lg1.cfcdn2.xyz
+  ws-path: /VHONOFZ3
+- name: vmess_172.64.152.150_443
+  type: vmess
+  server: 172.64.152.150
+  port: 443
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: clash6.ssr-free.xyz
+  ws-path: /dongtaiwang.com
+- name: vmess_162.159.130.234_2083
+  type: vmess
+  server: 162.159.130.234
+  port: 2083
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: or3.sfacg.uk
+  ws-path: /or3
+- name: vmess_162.159.135.234_2083
+  type: vmess
+  server: 162.159.135.234
+  port: 2083
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: or3.sfacg.uk
+  ws-path: /or3
+- name: vmess_172.66.0.1_443
+  type: vmess
+  server: 172.66.0.1
+  port: 443
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: vmess.lbw666.dpdns.org
+  ws-path: /ws
+- name: vmess_188.114.96.3_8443
+  type: vmess
+  server: 188.114.96.3
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: v2ray1.dozapp.xyz
+  ws-path: /lMnsZUN4/
+- name: vmess_172.64.80.1_8443
+  type: vmess
+  server: 172.64.80.1
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-headers:
+    Host: v2ray1.dozapp.xyz
+  ws-path: /lMnsZUN4/
 - name: vmess_cindy52.ceoiii.com_36803
   type: vmess
   server: cindy52.ceoiii.com
@@ -386,241 +204,217 @@ proxies:
   ws-headers:
     Host: server15.9966338.xyz
   ws-path: /asivewritten
-- name: vmess_yg1.ygkkk.dpdns.org_443
+- name: vmess_www.shopify.com_443
   type: vmess
-  server: yg1.ygkkk.dpdns.org
+  server: www.shopify.com
   port: 443
-  uuid: b2ba4a73-3123-479e-aa96-5973a9ecd0c0
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   alterId: 0
   cipher: auto
   tls: true
   network: ws
   ws-headers:
-    Host: jmp1.907737.xyz
-  ws-path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
-- name: vmess_cf.090227.xyz_443
+    Host: guanwang.awsno.com
+  ws-path: /hls/cctv5phd.m3u8
+- name: vmess_188.114.99.137_443
   type: vmess
-  server: cf.090227.xyz
+  server: 188.114.99.137
   port: 443
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   alterId: 0
   cipher: auto
   tls: true
   network: ws
   ws-headers:
-    Host: vmess.lbw666.dpdns.org
-  ws-path: /ws?ed=2048
-- name: vmess_162.159.130.234_2083
+    Host: guanwang.awsno.com
+  ws-path: /hls/cctv5phd.m3u8
+- name: vmess_104.18.42.163_443
   type: vmess
-  server: 162.159.130.234
-  port: 2083
-  uuid: ac251237-576f-40c8-a543-554960c958b1
+  server: 104.18.42.163
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   alterId: 0
   cipher: auto
   tls: true
   network: ws
   ws-headers:
-    Host: or3.sfacg.uk
-  ws-path: /or3
-- name: vmess_162.159.135.234_2083
+    Host: guanwang.awsno.com
+  ws-path: /hls/cctv5phd.m3u8
+- name: vmess_172.64.145.93_443
   type: vmess
-  server: 162.159.135.234
-  port: 2083
-  uuid: ac251237-576f-40c8-a543-554960c958b1
+  server: 172.64.145.93
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   alterId: 0
   cipher: auto
   tls: true
   network: ws
   ws-headers:
-    Host: or3.sfacg.uk
-  ws-path: /or3
-- name: vmess_141.193.213.21_8443
+    Host: guanwang.awsno.com
+  ws-path: /hls/cctv5phd.m3u8
+- name: vmess_172.66.142.170_443
   type: vmess
-  server: 141.193.213.21
-  port: 8443
-  uuid: bd67fcd2-ec34-40a6-aac6-67731f2d7011
+  server: 172.66.142.170
+  port: 443
+  uuid: 4caf156a-3309-4105-8388-d388eb9e1105
   alterId: 0
   cipher: auto
   tls: true
   network: ws
   ws-headers:
-    Host: matrix.phonicsindia.mobi
+    Host: id2.nathaya.web.id
+  ws-path: /whatever/vmess
+- name: vmess_dp8yk.xiaoyan.io_16616
+  type: vmess
+  server: dp8yk.xiaoyan.io
+  port: 16616
+  uuid: 904f0569-8695-466f-97cf-0de2face1b46
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-headers:
+    Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
   ws-path: /
-- name: vmess_news.zoom.us_8443
-  type: vmess
-  server: news.zoom.us
-  port: 8443
-  uuid: bd67fcd2-ec34-40a6-aac6-67731f2d7011
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: matrix.phonicsindia.mobi
-  ws-path: /
-- name: vmess_172.66.0.1_443
-  type: vmess
-  server: 172.66.0.1
+- name: trojan_104.17.128.1_2096
+  type: trojan
+  server: 104.17.128.1
+  port: 2096
+  password: auto
+- name: trojan_sclass-01.catcat321.com_20103
+  type: trojan
+  server: sclass-01.catcat321.com
+  port: 20103
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  sni: hk.catxstar.com
+- name: trojan_sclass-b1.catcat321.com_20051
+  type: trojan
+  server: sclass-b1.catcat321.com
+  port: 20051
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  sni: hk.catxstar.com
+- name: trojan_sclass-c2.catcat321.com_20051
+  type: trojan
+  server: sclass-c2.catcat321.com
+  port: 20051
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  sni: hk.catxstar.com
+- name: trojan_103.11.76.183_443
+  type: trojan
+  server: 103.11.76.183
   port: 443
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: vmess.lbw666.dpdns.org
-  ws-path: /ws
-- name: vmess_172.64.229.21_443
-  type: vmess
-  server: 172.64.229.21
+  password: f426d3c9-fb43-43c0-868b-898dfa451a74
+  sni: likejennie.pages.dev
+- name: trojan_167.82.76.27_443
+  type: trojan
+  server: 167.82.76.27
   port: 443
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ws
-- name: vmess_104.17.77.77_8443
-  type: vmess
-  server: 104.17.77.77
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /lMnsZUN4/
-- name: vmess_188.114.96.3_8443
-  type: vmess
-  server: 188.114.96.3
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: v2ray1.dozapp.xyz
-  ws-path: /lMnsZUN4/
-- name: vmess_172.67.167.78_8443
-  type: vmess
-  server: 172.67.167.78
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: v2ray1.dozapp.xyz
-  ws-path: /lMnsZUN4/
-- name: vmess_104.21.91.53_8443
-  type: vmess
-  server: 104.21.91.53
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: v2ray1.dozapp.xyz
-  ws-path: /lMnsZUN4/
-- name: vmess_172.67.161.144_8443
-  type: vmess
-  server: 172.67.161.144
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: v2ray1.dozapp.xyz
-  ws-path: /lMnsZUN4/
-- name: vmess_172.64.80.1_8443
-  type: vmess
-  server: 172.64.80.1
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-headers:
-    Host: v2ray1.dozapp.xyz
-  ws-path: /lMnsZUN4/
+  password: MiTiVPN
+  sni: ssl.fastly.com
+- name: trojan_151.101.110.219_443
+  type: trojan
+  server: 151.101.110.219
+  port: 443
+  password: Mitivpn
+  sni: ssl.fastly.com
+- name: trojan_104.18.152.152_443
+  type: trojan
+  server: 104.18.152.152
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.18.152.50_443
+  type: trojan
+  server: 104.18.152.50
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.18.152.77_443
+  type: trojan
+  server: 104.18.152.77
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.18.152.108_443
+  type: trojan
+  server: 104.18.152.108
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.16.174.22_443
+  type: trojan
+  server: 104.16.174.22
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.16.174.6_443
+  type: trojan
+  server: 104.16.174.6
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_www.ignitelimit.com_443
+  type: trojan
+  server: www.ignitelimit.com
+  port: 443
+  password: humanity
+- name: trojan_104.18.152.208_443
+  type: trojan
+  server: 104.18.152.208
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+- name: trojan_104.18.152.133_443
+  type: trojan
+  server: 104.18.152.133
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
 proxy-groups:
 - name: Auto
   type: select
   proxies:
-  - trojan_104.26.6.171_443
-  - trojan_t2w2t2w2.bpca2026.top_443
-  - trojan_sclass-01.catcat321.com_20103
-  - trojan_sclass-c2.catcat321.com_20051
-  - trojan_www.ignitelimit.com_443
-  - trojan_104.16.174.36_443
-  - trojan_104.18.152.225_443
-  - trojan_104.18.152.219_443
-  - trojan_104.18.152.73_443
-  - trojan_www.speedtest.org_443
-  - trojan_104.18.152.152_443
-  - trojan_104.18.22.63_443
-  - trojan_104.18.152.133_443
-  - trojan_86.38.214.205_443
-  - trojan_104.18.152.77_443
-  - trojan_104.18.152.140_443
-  - trojan_104.16.174.44_443
-  - trojan_104.18.152.204_443
-  - trojan_104.16.174.117_443
-  - trojan_104.18.152.208_443
-  - trojan_104.26.15.137_443
-  - trojan_104.17.111.4_443
-  - trojan_104.26.14.137_443
-  - trojan_104.16.73.213_443
-  - trojan_104.18.152.229_443
-  - trojan_104.18.152.187_443
-  - trojan_216.24.57.7_443
-  - trojan_104.18.152.143_443
-  - trojan_104.18.152.207_443
-  - trojan_104.18.12.149_443
-  - trojan_8.6.112.6_443
-  - trojan_104.16.174.37_443
-  - trojan_188.114.97.7_443
-  - trojan_join-telegram-channel.tirexnet.kdns.fr_443
-  - trojan_104.16.174.101_443
-  - trojan_185.220.100.168_443
-  - trojan_www.calmlunch.com_443
-  - trojan_167.82.64.120_443
-  - trojan_104.19.229.21_443
-  - ss_c17b957c5a76ec76.lebufflonfermegroup.us_21191
-  - ss_c17b957c5a76ec76.lebufflonfermegroup.us_40011
-  - vmess_23.165.200.150_52080
-  - vmess_188.114.99.137_443
-  - vmess_172.67.190.164_443
-  - vmess_US122201.ssgreen.org_443
-  - vmess_bmi2.kolman.com.de_80
-  - vmess_104.18.190.89_8880
-  - vmess_8.219.178.80_443
-  - vmess_8.219.185.204_443
+  - ss_149.22.87.241_443
+  - ss_149.22.87.240_443
+  - ss_149.22.87.204_443
+  - vmess_64.176.34.102_46130
+  - vmess_168.138.43.75_80
+  - vmess_192.74.236.148_30004
+  - vmess_172.64.154.222_443
+  - vmess_198.41.203.3_443
+  - vmess_198.41.203.1_443
+  - vmess_172.64.152.150_443
+  - vmess_162.159.130.234_2083
+  - vmess_162.159.135.234_2083
+  - vmess_172.66.0.1_443
+  - vmess_188.114.96.3_8443
+  - vmess_172.64.80.1_8443
   - vmess_cindy52.ceoiii.com_36803
   - vmess_cindy50.ceoiii.com_36801
   - vmess_www.true.th_80
   - vmess_hk2.998998.best_443
-  - vmess_yg1.ygkkk.dpdns.org_443
-  - vmess_cf.090227.xyz_443
-  - vmess_162.159.130.234_2083
-  - vmess_162.159.135.234_2083
-  - vmess_141.193.213.21_8443
-  - vmess_news.zoom.us_8443
-  - vmess_172.66.0.1_443
-  - vmess_172.64.229.21_443
-  - vmess_104.17.77.77_8443
-  - vmess_188.114.96.3_8443
-  - vmess_172.67.167.78_8443
-  - vmess_104.21.91.53_8443
-  - vmess_172.67.161.144_8443
-  - vmess_172.64.80.1_8443
+  - vmess_www.shopify.com_443
+  - vmess_188.114.99.137_443
+  - vmess_104.18.42.163_443
+  - vmess_172.64.145.93_443
+  - vmess_172.66.142.170_443
+  - vmess_dp8yk.xiaoyan.io_16616
+  - trojan_104.17.128.1_2096
+  - trojan_sclass-01.catcat321.com_20103
+  - trojan_sclass-b1.catcat321.com_20051
+  - trojan_sclass-c2.catcat321.com_20051
+  - trojan_103.11.76.183_443
+  - trojan_167.82.76.27_443
+  - trojan_151.101.110.219_443
+  - trojan_104.18.152.152_443
+  - trojan_104.18.152.50_443
+  - trojan_104.18.152.77_443
+  - trojan_104.18.152.108_443
+  - trojan_104.16.174.22_443
+  - trojan_104.16.174.6_443
+  - trojan_www.ignitelimit.com_443
+  - trojan_104.18.152.208_443
+  - trojan_104.18.152.133_443
 rules:
 - DOMAIN-SUFFIX,google.com,Auto
 - FINAL,Auto
